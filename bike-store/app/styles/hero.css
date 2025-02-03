@@ -1,0 +1,72 @@
+/* hero.css */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px;
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    color: var(--white);
+    text-align: center;
+    border-radius: var(--border-radius);
+    position: relative;
+    overflow: hidden;
+    animation: sparkle 3s infinite alternate;
+    background-color: var(--dark-color);
+}
+
+@keyframes sparkle {
+    0% { filter: brightness(1); }
+    100% { filter: brightness(1.2); }
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero-heading {
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 3px 3px 10px rgba(255, 255, 255, 0.3);
+}
+
+.hero-subheading {
+    font-size: 1.2rem;
+    margin: 15px 0;
+}
+
+.newsletter-form {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.newsletter-input {
+    padding: 10px;
+    border-radius: var(--border-radius);
+    border: none;
+    outline: none;
+    font-size: 1rem;
+}
+
+.newsletter-button {
+    padding: 10px 20px;
+    background: var(--white);
+    color: var(--primary-color);
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+}
+
+.newsletter-button:hover {
+    background: var(--secondary-color);
+    color: var(--white);
+}
+
+.hero-image img {
+    max-width: 1200px;
+    border-radius: var(--border-radius);
+    box-shadow: 0 4px 6px var(--shadow);
+}
