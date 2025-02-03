@@ -1,0 +1,136 @@
+/* testimonials.css */
+.testimonials-section {
+  text-align: center;
+  padding: 50px 20px;
+  background: #f9f9f9;
+}
+
+.testimonials-heading {
+  font-size: 2rem;
+  color: #ff6600;
+  margin-bottom: 20px;
+}
+
+.testimonials-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.testimonial-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  text-align: left;
+}
+.testimonial-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px var(--shadow);
+}
+
+.testimonial-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.testimonial-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.testimonial-name {
+  font-weight: bold;
+}
+
+.testimonial-rating {
+  font-size: 0.9rem;
+  color: #0044cc;
+}
+
+.testimonial-text {
+  margin-top: 10px;
+  font-size: 0.9rem;
+}
+
+.read-more-button {
+  margin-top: 20px;
+  background: #ff6600;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.read-more-button:hover {
+  background: #cc5500;
+}
+
+/* Modal */
+.testi-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.testi-modal {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 90%;
+  width: 800px;
+  max-height: 80vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.testi-modal-content {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 10px;
+  scroll-behavior: smooth;
+}
+
+
+.testi-modal-testimonial {
+  background: #f0f0f0;
+  padding: 15px;
+  border-radius: 10px;
+  min-width: 250px;
+}
+
+.testi-modal-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.testi-modal-name {
+  font-weight: bold;
+}
+
+.testi-modal-rating {
+  color: #0044cc;
+}
+
+.testi-modal-text {
+  font-size: 0.9rem;
+  margin-top: 5px;
+}

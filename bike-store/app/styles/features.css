@@ -50,28 +50,3 @@
     font-size: 1rem;
     color: var(--text-color);
 }
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    .features-container {
-        grid-template-columns: 1fr;
-    }
-
-    .features-heading {
-        font-size: 2rem;
-    }
-}
-
-@media (max-width: 480px) {
-    .features-section {
-        padding: 40px 15px;
-    }
-
-    .features-heading {
-        font-size: 1.8rem;
-    }
-
-    .feature {
-        padding: 15px;
-    }
-}
