@@ -22,9 +22,9 @@ export default function Home() {
       <Suspense fallback={<Loading message="About is loading..." />}>
         <About />
       </Suspense>
-      {/* <Suspense fallback={<Loading message="Features are loading..." />}>
+      <Suspense fallback={<Loading message="Features are loading..." />}>
         <Features />
-      </Suspense> */}
+      </Suspense>
       {/* <Suspense fallback={<Loading message="Testimonials initiating..." />}>
         <Testimonials />
       </Suspense> */}
