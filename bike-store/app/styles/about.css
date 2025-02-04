@@ -1,3 +1,4 @@
+
 /* about.css */
 .about-section {
   padding: 50px;
@@ -57,3 +58,99 @@
   border-radius: 50%;
   object-fit: cover;
 }
+
+
+
+
+/* ==================*/
+/* === RESPONSIVE ===*/
+/* ==================*/
+@media (max-width: 768px) {
+  .team-members {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+/* ==================*/
+/* === RESPONSIVE ===*/
+/* ==================*/
+
+
+
+
+/* ==================*/
+/* === DARK  MODE ===*/
+/* ==================*/
+.dark-mode .about-section {
+  background: var(--dark-bg-gallery);
+  color: var(--dark-white);
+  box-shadow: 0 4px 6px var(--black-01);
+}
+
+.dark-mode .about-heading {
+  color: var(--secondary-color-lighter);
+}
+
+.dark-mode .about-mission {
+  color: var(--grey);
+}
+
+.dark-mode .about-values li {
+  background: var(--dark-25);
+  color: var(--dark-white);
+}
+
+.dark-mode .about-values li:hover {
+  background: var(--secondary-color-lighter);
+  color: var(--dark-bg-gallery);
+  box-shadow: 0 2px 4px rgba(77, 168, 218, 0.5);
+}
+
+.dark-mode .team-member {
+  background: var(--dark-bg-header);
+  color: var(--dark-white);
+  border-radius: var(--border-radius);
+  padding: 15px;
+  box-shadow: 0 4px 8px var(--black-01);
+}
+
+/* ==================*/
+/* === DARK  MODE ===*/
+/* ==================*/
+
+
+
+
+
+/* ==================*/
+/* = HIGH  CONTRAST =*/
+/* ==================*/
+.high-contrast .about-section {
+  background: #222; 
+  color: #FFF;
+  font-size: 1.2rem;
+}
+
+.high-contrast .about-heading {
+  color: #FFD700;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.high-contrast .about-mission {
+  color: #EEE; 
+}
+
+.high-contrast .about-values li {
+  background: #333;
+  color: #FFF;
+  font-weight: bold;
+}
+
+.high-contrast .about-values li:hover {
+  background: #FFD700;
+  color: #000;
+}
+/* ==================*/
+/* = HIGH  CONTRAST =*/
+/* ==================*/

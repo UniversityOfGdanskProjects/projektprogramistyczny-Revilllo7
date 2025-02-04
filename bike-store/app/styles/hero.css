@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 60px;
+    margin-top: 3.25rem;
     background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
     color: var(--white);
     text-align: center;
@@ -12,6 +13,7 @@
     overflow: hidden;
     animation: sparkle 3s infinite alternate;
     background-color: var(--dark-color);
+    z-index: 2;
 }
 
 @keyframes sparkle {
@@ -70,3 +72,133 @@
     border-radius: var(--border-radius);
     box-shadow: 0 4px 6px var(--shadow);
 }
+
+/* ==================*/
+/* === RESPONSIVE ===*/
+/* ==================*/
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .hero-heading {
+        font-size: 2rem;
+    }
+
+    .hero-image img {
+        max-width: 100%;
+    }
+}
+/* ==================*/
+/* === RESPONSIVE ===*/
+/* ==================*/
+
+
+
+
+
+/* ==================*/
+/* === DARK  MODE ===*/
+/* ==================*/
+.dark-mode .hero {
+    color: var(--dark-white);
+    background: linear-gradient(135deg, var(--grey-44), var(--dark-bg));
+    color: var(--dark-white);
+    animation: dark-sparkle 3s infinite alternate;
+}
+
+@keyframes dark-sparkle {
+    0% { filter: brightness(0.7); }
+    100% { filter: brightness(1); }
+}
+
+.dark-mode .hero h1 {
+    color: var(--white);
+}
+
+.dark-mode .hero p {
+    color: var(--grey);
+}
+
+.dark-mode .hero button {
+    background: var(--dark-accent-blue);
+    color: var(--white);
+}
+
+.dark-mode .hero button:hover {
+    background: var(--primary-color-darker);
+}
+/* ==================*/
+/* === DARK  MODE ===*/
+/* ==================*/
+
+
+
+
+
+
+/* ==================*/
+/* = HIGH  CONTRAST =*/
+/* ==================*/
+.high-contrast .team-member {
+    background: #222;
+    color: #FFF;
+    border-radius: 5px;
+    padding: 15px;
+    border: 2px solid #FFD700;
+}
+
+
+.high-contrast footer {
+    background: #111;
+    color: #FFF;
+    border-top: 2px solid #FFD700;
+}
+
+.high-contrast .footer-links a {
+    color: #FFD700;
+}
+
+.high-contrast .footer-links a:hover {
+    color: #FF4500;
+}
+
+.high-contrast .hero {
+    background: linear-gradient(135deg, #222, #777);
+    color: #FFF;
+    animation: high-contrast-sparkle 10s infinite alternate;
+}
+
+.high-contrast .hero img {
+    scale: 1.2;
+    margin-right: 30px;
+    margin-top: 50px;
+}
+
+@keyframes high-contrast-sparkle {
+    0% { filter: brightness(0.8); }
+    100% { filter: brightness(1.2); }
+}
+
+.high-contrast .hero h1 {
+    color: #FFD700;
+}
+
+.high-contrast .hero p {
+    color: #EEE;
+}
+
+.high-contrast .hero button {
+    background: #FFD700;
+    color: #000;
+    font-weight: bold;
+}
+
+.high-contrast .hero button:hover {
+    background: #FF4500;
+    color: #000;
+}
+/* ==================*/
+/* = HIGH  CONTRAST =*/
+/* ==================*/

@@ -1,0 +1,226 @@
+/* General Section Styles */
+.pref-section {
+    margin: 60px;
+}
+
+/* Preference Items */
+.preference {
+    position: fixed;
+    top: 7.75rem;
+    left: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+/* Buttons */
+.button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    transition: opacity 1s ease-in-out;
+    opacity: 0.5;;
+}
+
+
+.button:hover {
+    opacity: 1;
+}
+
+.button img {
+    width: 50px; /* Set the icon size */
+    height: 50px; /* Set the icon size */
+}
+
+/* Modals */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+
+.modal, .other-modal {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    min-width: 300px;
+    text-align: center;
+}
+
+.modal h2, .other-modal h2 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.modal-overlay:has(.modal, .other-modal) {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Font Selection */
+.font-options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.font-option {
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    border: 1px solid transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+.font-option:hover, .font-option.selected {
+    border-color: #007bff;
+    color: #007bff;
+}
+
+/* Dark Mode Toggle */
+.preferences-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Switch Styling */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: 0.3s;
+    border-radius: 20px;
+}
+
+.slider::before {
+    position: absolute;
+    content: "";
+    height: 14px;
+    width: 14px;
+    left: 3px;
+    bottom: 3px;
+    background-color: white;
+    transition: 0.3s;
+    border-radius: 50%;
+}
+
+input:checked + .slider {
+    background-color: #007bff;
+}
+
+input:checked + .slider::before {
+    transform: translateX(18px);
+}
+
+/* ==================*/
+/* === DARK  MODE ===*/
+/* ==================*/
+.dark-mode .pref-section {
+    background: var(--dark-22);
+    box-shadow: none;
+}
+
+.dark-mode .preference h2,
+.dark-mode .modal h2,
+.dark-mode .other-modal h2 {
+    color: var(--white);
+}
+
+.dark-mode .font-option {
+    color: var(--white);
+}
+
+.dark-mode .font-option.selected {
+    color: var(--dark-accent-blue);
+    border-color: var(--dark-accent-blue);
+}
+
+.dark-mode button:hover {
+    background: var(--primary-color);
+    color: var(--white);
+}
+/* ==================*/
+/* === DARK  MODE ===*/
+/* ==================*/
+
+
+
+
+
+/* ==================*/
+/* = HIGH  CONTRAST =*/
+/* ==================*/
+.high-contrast .pref-section {
+    background: #111;
+    box-shadow: none;
+}
+
+.high-contrast .preference h2 {
+    color: #FFD700;
+}
+
+.high-contrast .font-option {
+    color: #FFF;
+}
+
+.high-contrast .font-option.selected {
+    color: #FFD700;
+    border-color: #FFD700;
+}
+
+.high-contrast .modal,
+.high-contrast .other-modal {
+    background: #000;
+    color: #FFF;
+    border: 2px solid #FFD700;
+}
+
+.high-contrast .modal h2,
+.high-contrast .other-modal h2 {
+    color: #FFD700;
+}
+
+.high-contrast button:hover {
+    background: #FFD700;
+    color: #000;
+}
+
+.high-contrast button {
+    opacity: 1;
+}
+/* ==================*/
+/* = HIGH  CONTRAST =*/
+/* ==================*/

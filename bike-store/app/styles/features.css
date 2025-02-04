@@ -50,3 +50,115 @@
     font-size: 1rem;
     color: var(--text-color);
 }
+
+/* ==================*/
+/* === RESPONSIVE ===*/
+/* ==================*/
+@media (max-width: 768px) {
+    .features-container {
+        grid-template-columns: 1fr;
+    }
+
+    .features-heading {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .features-section {
+        padding: 40px 15px;
+    }
+
+    .features-heading {
+        font-size: 1.8rem;
+    }
+
+    .feature {
+        padding: 15px;
+    }
+}
+/* ==================*/
+/* === RESPONSIVE ===*/
+/* ==================*/
+
+
+
+
+/* ==================*/
+/* === DARK  MODE ===*/
+/* ==================*/
+
+.dark-mode .features-section {
+    background: var(--dark-bg);
+    color: var(--dark-white);
+}
+
+.dark-mode .features-heading {
+    color: var(--secondary-color-lighter);
+}
+
+.dark-mode .feature {
+    background: var(--dark-bg-header);
+    box-shadow: 0 4px 8px var(--black-01);
+}
+
+.dark-mode .feature:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(255, 255, 255, 0.2);
+}
+
+.dark-mode .feature-title {
+    color: var(--secondary-color-lighter);
+}
+
+.dark-mode .feature-description {
+    color: var(--grey);
+}
+
+.dark-mode .feature-icon {
+    filter: brightness(0.8);
+}
+
+/* ==================*/
+/* === DARK  MODE ===*/
+/* ==================*/
+
+
+
+
+
+/* ==================*/
+/* = HIGH  CONTRAST =*/
+/* ==================*/
+
+.high-contrast .features-section {
+    background: #222;
+    color: #FFF;
+}
+
+.high-contrast .feature {
+    background: #333;
+    box-shadow: 0 4px 8px rgba(255, 215, 0, 0.3);
+}
+
+.high-contrast .feature:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(255, 255, 255, 0.5);
+}
+
+.high-contrast .feature-title {
+    color: #FFD700;
+    font-weight: bold;
+}
+
+.high-contrast .feature-description {
+    color: #EEE;
+}
+.high-contrast .features-heading {
+    color: #FFD700;
+    font-size: 2rem;
+    font-weight: bold;
+}
+/* ==================*/
+/* = HIGH  CONTRAST =*/
+/* ==================*/

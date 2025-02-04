@@ -1,8 +1,9 @@
 'use client';
 import { lazy, Suspense } from 'react';
 import Header from './components/header.js';
-import Prefrences from './components/prefrences.js';
+import Preference from './components/preferences.js';
 import Hero from './components/hero.js';
+import Social from './components/social.js';
 const About = lazy(() => import('./components/about.js'));
 const Features = lazy(() => import('./components/features.js'));
 const Testimonials = lazy(() => import('./components/testimonials.js'));
@@ -18,6 +19,8 @@ export default function Home() {
   return (
     <div>
       <Header />
+      <Preference />
+      {/* <Social /> */}
       <Hero />
       <Suspense fallback={<Loading message="About is loading..." />}>
         <About />
@@ -31,9 +34,9 @@ export default function Home() {
       <Suspense fallback={<Loading message="Gallery is biking home..." />}>
         <Gallery />
       </Suspense>
-      {/* <Suspense fallback={<Loading message="Form is racing to you..." />}>
+      <Suspense fallback={<Loading message="Form is racing to you..." />}>
         <ContactForm />
-      </Suspense> */}
+      </Suspense>
       <Suspense fallback={<Loading message="Footer got on the pedal..." />}>
         <Footer />
       </Suspense>
