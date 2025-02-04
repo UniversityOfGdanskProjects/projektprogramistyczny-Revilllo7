@@ -23,12 +23,14 @@
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  width: 250px;
+  width: 200px;
   text-align: left;
+  transition: transform 0.3s, box-shadow 0.3s;
 }
 .testimonial-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 6px 12px var(--shadow);
+  transition: 0.3s;
 }
 
 .testimonial-header {
@@ -49,8 +51,9 @@
 }
 
 .testimonial-rating {
-  font-size: 0.9rem;
+  font-size: 1.2rem;
   color: #0044cc;
+  font-weight: bold;
 }
 
 .testimonial-text {
@@ -128,9 +131,11 @@
 
 .testi-modal-rating {
   color: #0044cc;
+  font-weight: bold;
 }
 
 .testi-modal-text {
   font-size: 0.9rem;
   margin-top: 5px;
 }
+

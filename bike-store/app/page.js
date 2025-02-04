@@ -28,9 +28,9 @@ export default function Home() {
       <Suspense fallback={<Loading message="Testimonials initiating..." />}>
         <Testimonials />
       </Suspense>
-      {/* <Suspense fallback={<Loading message="Gallery is biking home..." />}>
+      <Suspense fallback={<Loading message="Gallery is biking home..." />}>
         <Gallery />
-      </Suspense> */}
+      </Suspense>
       {/* <Suspense fallback={<Loading message="Form is racing to you..." />}>
         <ContactForm />
       </Suspense> */}
