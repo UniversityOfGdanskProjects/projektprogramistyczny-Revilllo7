@@ -1,0 +1,117 @@
+.policy-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 2rem;
+    background: var(--background);
+    border-radius: var(--border-radius);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.policy-container h1 {
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.policy-container p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: var(--text-color);
+    margin-bottom: 1rem;
+}
+
+.policy-container a {
+    color: var(--link-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.policy-container a:hover {
+    text-decoration: underline;
+}
+
+/* Back to Home link */
+.policy-container .back-link {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 1rem;
+    color: var(--button-color);
+    padding: 8px 15px;
+    border-radius: var(--border-radius);
+    background: var(--button-bg);
+    text-align: center;
+    transition: background 0.3s ease;
+}
+
+.policy-container .back-link:hover {
+    background: var(--button-hover-bg);
+}
+
+/* ==================*/
+/* === RESPONSIVE ===*/
+/* ==================*/
+@media (max-width: 768px) {
+    .policy-container {
+        padding: 1.5rem;
+    }
+
+    .policy-container h1 {
+        font-size: 1.8rem;
+    }
+
+    .policy-container p {
+        font-size: 0.95rem;
+    }
+}
+/* ==================*/
+/* === RESPONSIVE ===*/
+/* ==================*/
+
+/* ==================*/
+/* === DARK  MODE ===*/
+/* ==================*/
+.dark-mode .policy-container {
+    background: var(--dark-bg);
+    color: var(--dark-text);
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+}
+
+.dark-mode .policy-container h1 {
+    color: var(--dark-primary);
+}
+
+.dark-mode .policy-container a {
+    color: var(--dark-link);
+}
+
+.dark-mode .policy-container .back-link {
+    background: var(--dark-button-bg);
+    color: var(--dark-text);
+}
+
+.dark-mode .policy-container .back-link:hover {
+    background: var(--dark-button-hover-bg);
+}
+/* ==================*/
+/* === DARK  MODE ===*/
+/* ==================*/
+
+
+/* ==================*/
+/* = HIGH  CONTRAST =*/
+/* ==================*/
+.high-contrast .policy-container {
+    background: black;
+    color: white;
+}
+
+.high-contrast .policy-container a {
+    color: gold
+}
+/* ==================*/
+/* = HIGH  CONTRAST =*/
+/* ==================*/

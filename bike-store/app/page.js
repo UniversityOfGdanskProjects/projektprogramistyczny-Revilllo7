@@ -20,7 +20,6 @@ export default function Home() {
     <div>
       <Header />
       <Preference />
-      {/* <Social /> */}
       <Hero />
       <Suspense fallback={<Loading message="About is loading..." />}>
         <About />
@@ -36,6 +35,9 @@ export default function Home() {
       </Suspense>
       <Suspense fallback={<Loading message="Form is racing to you..." />}>
         <ContactForm />
+      </Suspense>
+      <Suspense fallback={<Loading message="Social is sharing..." />}>
+        <Social />
       </Suspense>
       <Suspense fallback={<Loading message="Footer got on the pedal..." />}>
         <Footer />

@@ -25,6 +25,13 @@
     max-width: 600px;
 }
 
+.hero-content form {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    width: fit-content;
+}
+
 .hero-heading {
     font-size: 3rem;
     font-weight: bold;
@@ -171,7 +178,7 @@
 }
 
 .high-contrast .hero img {
-    scale: 1.2;
+    scale: 1;
     margin-right: 30px;
     margin-top: 50px;
 }

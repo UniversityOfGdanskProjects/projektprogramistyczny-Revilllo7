@@ -2,7 +2,6 @@
 import { useReducer, useEffect } from 'react';
 
 import '../styles/preferences.css';
-import SocialShare from './social';
 
 const initialState = {
     language: 'pl',

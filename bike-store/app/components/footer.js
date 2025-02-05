@@ -1,11 +1,14 @@
 'use client';
 import Link from 'next/link';
 import '../styles/footer.css';
-import { useTranslation } from 'react-i18next';
 
 const Footer = () => {
   return (
     <footer className="footer">
+      <div className="contact-info">
+        <p>Contact us at: contact@bikestore.com</p>
+        <p>Phone: +123 456 789</p>
+      </div>
       <div className="social">
         <a href="https://facebook.com" target="_blank" aria-label='Go to our Facebook page!'>
           <img src="/images/facebook.png" alt="Facebook" />
@@ -17,14 +20,12 @@ const Footer = () => {
           <img src="/images/x.png" alt="Twitter" />
         </a>
         <a href="https://linktr.ee/miodex" id="special" target="_blank" aria-label='More of us on Linktree!'>
-          <img src="/images/linktree.png" alt="Patreon" />
+          <img src="/images/linktree.png" alt="Linktree" />
         </a>
       </div>
-
-
       <div className="legal">
-        <Link href="/privacy-policy">Our Policy</Link>
-        <Link href="/terms-of-use">Terms of us</Link>
+        <Link href="/privacy-policy">Privacy Policy</Link>
+        <Link href="/terms-of-use">Terms of Use</Link>
       </div>
     </footer>
   );

@@ -10,19 +10,18 @@ const Hero = () => {
         e.preventDefault();
     
         try {
-            const response = await fetch('/API/newsletter', {
+            const response = await fetch('/api/newsletter', { // FIXED: Corrected API path
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ email }),
             });
-    
+
             const data = await response.json();
-            setMessage(data.message || data.error);
+            setMessage(data.message || 'Something went wrong');
         } catch (error) {
-            setMessage('Podany email już istnieje');
+            setMessage('Błąd podczas zapisywania. Spróbuj ponownie.');
         }
     };
-    
 
     return (
         <section id="hero" className="hero">
@@ -30,7 +29,14 @@ const Hero = () => {
                 <h1 className="hero-heading">Get yours now!</h1>
                 <p className="hero-subheading">Sign up to our newsletter to know when our newest bikes are available</p>
                 <form className="newsletter-form" onSubmit={handleSubmit}>
-                    <input type="email" placeholder="Enter your email" className="newsletter-input" value={email} onChange={(e)=>setEmail(e.target.value)} required/>
+                    <input
+                        type="email"
+                        placeholder="Enter your email"
+                        className="newsletter-input"
+                        value={email}
+                        onChange={(e) => setEmail(e.target.value)}
+                        required
+                    />
                     <button type="submit" className="newsletter-button">
                         Sign up!
                     </button>
