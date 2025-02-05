@@ -5,7 +5,6 @@
 > Grupa: 4
 > Data rozpoczęcia: 01/02/2025
 > Data ukończenia: 06/02/2025
-
 ---
 
 ## Temat: Landing Page
@@ -72,7 +71,7 @@ Aplikacja typu landing page to dedykowana strona internetowa zaprojektowana z my
 | Przetestowanie aplikacji. | 1 | 0 | ❌ | Nie przetestowano aplikacji, tylko dane klienta |
 | Zarządzanie stanem aplikacji (Context, Redux, MobX) | 2 | 0 | ❌ | Nie użyto |
 | SWR (Stale-While-Revalidate) lub React Query dla zarządzania danymi asynchronicznymi.  | 2 | 0 | ❌ | Nie użyto |
-| Deploy aplikacji na przykład w serwisie Heroku/Netlify/Firebase. | 1 | 1 | ✅ | |
+| Deploy aplikacji na przykład w serwisie Heroku/Netlify/Firebase. | 1 | 1 | ✅ | Strona[^1] |
 | Inne rzeczy, nie pokazane na wykładzie/zajęciach. | 2 | X | ✅/❌ | |
 
 ---
@@ -158,7 +157,7 @@ A landing page application is a dedicated website designed to effectively presen
 | Application testing.	 | 1 | 0 | ❌ | Didn't test the app, only tested user data |
 | State management (Context, Redux, MobX). | 2 | 0 | ❌ | Didn't use |
 | SWR (Stale-While-Revalidate) or React Query for async data management.	  | 2 | 0 | ❌ | Didn't use |
-| Deploying the application on Heroku/Netlify/Firebase.	 | 1 | 1 | ✅ | |
+| Deploying the application on Heroku/Netlify/Firebase.	 | 1 | 1 | ✅ | Site[^1] |
 | Other things not covered in lectures/classes.	 | 2 | X | ✅/❌ | |
 
 ---
@@ -170,3 +169,4 @@ A landing page application is a dedicated website designed to effectively presen
 | Repository status.	  | 0 | |
 
 ---
+[^1]: Deploy link [Netlify](https://animated-jelly-4608b7.netlify.app)
