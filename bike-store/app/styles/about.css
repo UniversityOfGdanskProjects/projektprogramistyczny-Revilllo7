@@ -69,6 +69,13 @@
   .team-members {
     flex-direction: column;
     align-items: center;
+    max-width: min(100%, 700px);
+    gap: 60px
+
+  }
+
+  .team-member:first-child {
+    padding-top: 60px;
   }
 }
 /* ==================*/

@@ -10,7 +10,7 @@
     left: 0.5rem;
     justify-content: center;
     align-items: center;
-    z-index: 1;
+    z-index: 3;
 }
 
 /* Buttons */
@@ -29,8 +29,8 @@
 }
 
 .button img {
-    width: 50px; /* Set the icon size */
-    height: 50px; /* Set the icon size */
+    width: 50px; 
+    height: 50px; 
 }
 
 /* Modals */
@@ -144,6 +144,17 @@ input:checked + .slider {
 input:checked + .slider::before {
     transform: translateX(18px);
 }
+/* ==================*/
+/* === RESPONSIVE ===*/
+/* ==================*/
+@media (max-width: 768px) {
+    .pref-section {
+        margin: 20px;
+    }
+}
+/* ==================*/
+/* === RESPONSIVE ===*/
+/* ==================*/
 
 /* ==================*/
 /* === DARK  MODE ===*/

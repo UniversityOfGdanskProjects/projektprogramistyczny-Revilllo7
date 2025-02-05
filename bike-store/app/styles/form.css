@@ -1,6 +1,6 @@
 /* General Form Styles */
 .contact-form {
-    max-width: 40%;
+    max-width: 47.5%;
     margin: 40px auto;
     padding: 20px;
     background: #ffffff;
@@ -90,7 +90,7 @@ input::placeholder, textarea::placeholder {
 /* ==================*/
 @media (max-width: 600px) {
     .contact-form {
-        width: 90%;
+        max-width: min(100%, 240px);
     }
 }
 /* ==================*/

@@ -14,6 +14,7 @@
     animation: sparkle 3s infinite alternate;
     background-color: var(--dark-color);
     z-index: 2;
+    gap: 20px;
 }
 
 @keyframes sparkle {

@@ -5,8 +5,6 @@ import '../styles/form.css';
 import Fetch from '../customHooks/fetch';
 
 const ContactForm = () => {
-    const { data, loading, error } = Fetch('https://api.quotable.io/quotes/random');
-    const placeholder = (data && !loading && !error) ? data[0].content : "message";
 
     const initialValues = {
         Name: '',

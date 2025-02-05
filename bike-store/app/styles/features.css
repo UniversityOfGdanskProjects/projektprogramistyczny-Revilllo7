@@ -57,10 +57,13 @@
 @media (max-width: 768px) {
     .features-container {
         grid-template-columns: 1fr;
+        max-width: min(100%, 275px);
     }
 
     .features-heading {
         font-size: 2rem;
+        max-width: min(100%, 300px);
+        padding-left: calc(50% - 150px);
     }
 }
 

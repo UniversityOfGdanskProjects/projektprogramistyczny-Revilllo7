@@ -3,6 +3,8 @@
   text-align: center;
   padding: 50px 20px;
   background: #f9f9f9;
+  max-width: 55%;
+  margin: 0 auto;
 }
 
 .testimonials-heading {
@@ -20,7 +22,7 @@
 
 .testimonial-card {
   background: white;
-  padding: 20px;
+  padding: 15px;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   width: 200px;
@@ -146,6 +148,8 @@
   .testimonials-container {
     flex-direction: column;
     align-items: center;
+    max-width: min(100%, px);
+    padding-left: calc(50% - 140px);
   }
 
   .testimonial-card {
