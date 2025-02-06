@@ -1,0 +1,88 @@
+/* ===== Social Share Buttons ===== */
+.social-container div {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.social-container h3{
+    display: flex;
+    justify-content: center;
+}
+
+.social-link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 15px;
+    background: var(--button-bg);
+    color: var(--text-color);
+    text-decoration: none;
+    border-radius: var(--border-radius);
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.social-link:hover {
+    background: var(--button-hover-bg);
+    transform: translateY(-3px);
+}
+
+.social-icon {
+    font-size: 1.2rem;
+}
+
+/* ==================*/
+/* === RESPONSIVE ===*/
+/* ==================*/
+@media (max-width: 600px) {
+    .social-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .social-link {
+        width: 90%;
+        justify-content: center;
+    }
+}
+/* ==================*/
+/* === RESPONSIVE ===*/
+/* ==================*/
+
+/* ==================*/
+/* === DARK  MODE ===*/
+/* ==================*/
+.dark-mode .social-link {
+    background: var(--dark-button-bg);
+    color: var(--dark-text);
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
+}
+
+.dark-mode .social-link:hover {
+    background: var(--dark-button-hover-bg);
+}
+/* ==================*/
+/* === DARK  MODE ===*/
+/* ==================*/
+
+/* ==================*/
+/* = HIGH  CONTRAST =*/
+/* ==================*/
+.high-contrast .social-link {
+    background: #111;
+    color: #FFD700;
+    border: 2px solid #FFD700;
+}
+
+.high-contrast .social-link:hover {
+    background: #222;
+    color: #FFF;
+}
+/* ==================*/
+/* = HIGH  CONTRAST =*/
+/* ==================*/

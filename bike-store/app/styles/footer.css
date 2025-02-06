@@ -1,0 +1,87 @@
+/* footer.css */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: var(--primary-color);
+    color: var(--white);
+}
+
+.social a img {
+    width: 30px;
+    margin: 0 10px;
+    transition: transform 0.3s;
+    padding-right: calc(100% + 10px);
+}
+
+.social .special {
+    height: 80px;
+}
+
+.social a:hover img {
+    transform: scale(1.025);
+    transition: all 0.3s;
+}
+
+.legal a {
+    color: var(--white);
+    font-size: 0.9rem;
+    transition: opacity 0.3s;
+    display: flex;
+    justify-content: space-between;
+}
+
+.legal a:hover {
+    opacity: 0.7;
+}
+
+/* ==================*/
+/* === DARK  MODE ===*/
+/* ==================*/
+.dark-mode footer {
+    background: var(--dark-bg-header);
+    color: var(--dark-white);
+    border-top: 1px solid var(--text-color);
+}
+
+.dark-mode .footer-links a {
+    color: var(--dark-footer);
+}
+
+.dark-mode .footer-links a:hover {
+    color: var(--dark-accent-blue);
+}
+/* ==================*/
+/* === DARK  MODE ===*/
+/* ==================*/
+
+
+
+
+
+/* ==================*/
+/* = HIGH  CONTRAST =*/
+/* ==================*/
+
+.high-contrast footer {
+    background: var(--dark-bg-header);
+    color: var(--dark-white);
+    border-top: 2px solid var(--text-color);
+}
+
+.high-contrast a {
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: underline;
+}
+
+.high-contrast  a:hover {
+    color: #FFD700;
+    text-decoration: underline;
+    font-size: calc(100% + 0.5rem);
+}
+
+/* ==================*/
+/* = HIGH  CONTRAST =*/
+/* ==================*/

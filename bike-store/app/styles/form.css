@@ -1,0 +1,184 @@
+/* General Form Styles */
+.contact-form {
+    max-width: 47.5%;
+    margin: 40px auto;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form h2 {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+}
+
+label {
+    font-weight: bold;
+    color: #444;
+}
+
+strong {
+    padding-left: 0.25rem;
+    color: var(--primary-color);
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+input, textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s ease-in-out;
+    resize: none;
+}
+
+input:focus, textarea:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Placeholder Styling */
+input::placeholder, textarea::placeholder {
+    color: #888;
+    font-style: italic;
+}
+
+/* Error Messages */
+.error {
+    color: #d9534f;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* Required Fields Info */
+.required {
+    font-size: 14px;
+    color: var(--primary-color);
+    text-align: center;
+}
+
+/* Submit Button */
+.submit-button {
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+.submit-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/* ==================*/
+/* === RESPONSIVE ===*/
+/* ==================*/
+@media (max-width: 600px) {
+    .contact-form {
+        max-width: min(100%, 240px);
+    }
+}
+/* ==================*/
+/* === RESPONSIVE ===*/
+/* ==================*/
+
+
+
+
+/* ==================*/
+/* === DARK  MODE ===*/
+/* ==================*/
+.dark-mode .contact-form {
+    background: var(--dark-bg-header);
+    color: var(--dark-white);
+    border: 1px solid var(--text-color);
+}
+
+.dark-mode .form-field input,
+.dark-mode .form-field textarea {
+    background: var(--dark-22);
+    color: var(--white);
+    border: 1px solid var(--grey-44);
+}
+
+.dark-mode .form-field input::placeholder,
+.dark-mode .form-field textarea::placeholder {
+    color: var(--dark-footer);
+}
+
+.dark-mode .form-field input:focus,
+.dark-mode .form-field textarea:focus {
+    border-color: var(--dark-accent-blue);
+}
+
+/* ==================*/
+/* === DARK  MODE ===*/
+/* ==================*/
+
+
+
+
+/* ==================*/
+/* = HIGH  CONTRAST =*/
+/* ==================*/
+.high-contrast .contact-form {
+    background: #111;
+    color: #FFF;
+    border: 2px solid #FFD700;
+    font-size: 1.5rem;
+}
+
+.high-contrast .form-field input,
+.high-contrast .form-field textarea {
+    background: #000;
+    color: #FFF;
+    border: 2px solid #FFD700;
+    font-size: 1.5rem;
+}
+
+.high-contrast .form-field input::placeholder,
+.high-contrast .form-field textarea::placeholder {
+    color: #FFD700;
+    font-size: 1.5rem;
+}
+
+.high-contrast .form-field input:focus,
+.high-contrast .form-field textarea:focus {
+    border-color: #FF4500;
+    font-size: 1.5rem;
+}
+
+.high-contrast .contact-form h2 {
+    color: #FFD700;
+    font-size: 2rem;
+}
+
+.high-contrast .contact-form strong {
+    color: #FF4500;
+    font-size: 2rem;
+}
+
+.high-contrast .submit-button {
+    background: #FFD700;
+    color: #000000;
+    font-weight: bold;
+    font-size: 2rem;
+}
+/* ==================*/
+/* = HIGH  CONTRAST =*/
+/* ==================*/

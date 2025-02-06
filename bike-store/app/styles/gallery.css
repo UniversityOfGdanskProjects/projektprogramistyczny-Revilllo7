@@ -1,0 +1,110 @@
+.gallery {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: var(--gallery-bg-color);
+    border-radius: var(--border-radius);
+}
+
+.gallery-heading {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: var(--text-color);
+    font-weight: bold;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    max-width: 47.5%;
+    margin: 0 auto;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    transition: transform 0.3s ease, opacity 0.5s ease-in;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+    filter: brightness(80%);
+}
+
+/* ==================*/
+/* === RESPONSIVE ===*/
+/* ==================*/
+@media (max-width: 600px) {
+    .gallery {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        max-width: min(100%, 240px);
+    }
+}
+
+/* ==================*/
+/* === RESPONSIVE ===*/
+/* ==================*/
+
+
+/* ==================*/
+/* === DARK  MODE ===*/
+/* ==================*/
+.dark-mode .gallery {
+    background: var(--dark-bg-gallery);
+}
+
+.dark-mode .gallery-heading {
+    color: var(--secondary-color-lighter);
+}
+
+.dark-mode .gallery img {
+    filter: brightness(0.8);
+}
+
+.dark-mode .gallery img:hover {
+    filter: brightness(1);
+}
+
+
+/* ==================*/
+/* === DARK  MODE ===*/
+/* ==================*/
+
+
+
+
+
+
+/* ==================*/
+/* = HIGH  CONTRAST =*/
+/* ==================*/
+.high-contrast .gallery {
+    background: #000;
+    color: #FFF;
+    border-radius: var(--border-radius);
+}
+
+.high-contrast .gallery-heading {
+    color: #FFD700;
+    font-weight: bold;
+}
+
+.high-contrast .gallery img {
+    filter: brightness(1.2) contrast(1.2);
+    box-shadow: 0 4px 8px rgba(255, 215, 0, 0.5);
+    border: 2px solid #FFD700;
+}
+
+.high-contrast .gallery img:hover {
+    transform: scale(1.2);
+    z-index: 3;
+}
+
+/* ==================*/
+/* = HIGH  CONTRAST =*/
+/* ==================*/

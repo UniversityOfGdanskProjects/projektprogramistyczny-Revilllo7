@@ -1,0 +1,118 @@
+/* globals.css */
+:root {
+  --primary-color: #ff6600; /* Orange */
+  --primary-color-darker: #cc5200; /* Darker Orange */
+  --secondary-color: #0044cc; /* Blue */
+  --secondary-color-lighter: #4da8da; /* Lighter Blue */
+  --dark-accent-blue: #007bff;
+  --dark-color: #010017; /* Black */
+  --text-color: #333;
+  --bg-color: #f9f9f9;
+  --dark-bg-gallery: #181818;
+  --dark-bg-header: #1e1e1e;
+  --dark-footer: #bbbbbb;
+  --dark-bg: #121212;
+  --dark-25: #252525;
+  --grey-44: #444444;
+  --dark-blue: #0056b3;
+  --dark-22: #222222;
+  --black-01: rgba(255, 255, 255, 0.1);
+  --gallery-bg-color: #dee4edaa; /* Blue-Grey */
+  --white: #ffffff;
+  --dark-white: #f5f5f5;
+  --grey: #cccccc;
+  --shadow: rgba(0, 0, 0, 0.1);
+  --border-radius: 10px;
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: var(--primary-color);
+}
+
+
+/* ==================*/
+/* === DARK  MODE ===*/
+/* ==================*/
+.dark-mode body {
+  background-color: var(--dark-bg);
+  color: var(--dark-white);
+}
+
+/* === BUTTONS === */
+.dark-mode button {
+  background: var(--secondary-color);
+  color: var(--white);
+}
+
+.dark-mode button:hover {
+  background: var(--dark-blue);
+}
+
+/* === MODALS === */
+.dark-mode .modal,
+.dark-mode .other-modal {
+  background: var(--dark-22);
+  color: var(--dark-white);
+  border: 1px solid var(--text-color);
+}
+
+.dark-mode .modal h2,
+.dark-mode .other-modal h2 {
+  color: var(--white);
+}
+
+
+/* === LINKS === */
+.dark-mode a:hover {
+  color: var(--primary-color);
+}
+
+/* ==================*/
+/* === DARK  MODE ===*/
+/* ==================*/
+
+
+/* ==================*/
+/* = HIGH  CONTRAST =*/
+/* ==================*/.high-contrast a {
+  color: white;
+}
+.high-contrast body{
+  background-color: #000;
+  color: #FFF; 
+}
+
+.high-contrast button {
+  background: #FFD700;
+  color: #000;
+  font-weight: bold;
+}
+
+.high-contrast button:hover {
+  background: #FF4500;
+}
+
+/* ==================*/
+/* = HIGH  CONTRAST =*/
+/* ==================*/

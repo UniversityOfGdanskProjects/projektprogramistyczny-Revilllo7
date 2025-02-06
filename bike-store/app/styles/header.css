@@ -1,0 +1,115 @@
+/* header.css */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: var(--border-radius);
+  background: var(--dark-color);
+  color: var(--white);
+  box-shadow: 0 4px 6px var(--shadow);
+  
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 50px;
+  padding-left: 2rem;
+}
+
+.motto {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-left: 8%;
+}
+
+.navigation ul {
+  display: flex;
+  gap: 20px;
+}
+
+.navigation a {
+  color: var(--white);
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.navigation a:hover {
+  color: var(--primary-color);
+  transition: 0.3s;
+}
+
+
+
+/* ==================*/
+/* === RESPONSIVE ===*/
+/* ==================*/
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .navigation ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+/* ==================*/
+/* === RESPONSIVE ===*/
+/* ==================*/
+
+
+/* ==================*/
+/* === DARK  MODE ===*/
+/* ==================*/
+.dark-mode header {
+  background: var(--dark-bg-header);
+  border-bottom: 1px solid var(--text-color);
+}
+
+.dark-mode .logo {
+  filter: invert(1);
+}
+
+.dark-mode nav a {
+  color: var(--dark-white);
+}
+
+.dark-mode nav a:hover {
+  color: var(--primary-color);
+}
+/* ==================*/
+/* === DARK  MODE ===*/
+/* ==================*/
+
+
+/* ==================*/
+/* = HIGH  CONTRAST =*/
+/* ==================*/
+.high-contrast .logo {
+  filter: drop-shadow(16px 16px 20px rgb(255, 255, 255)) invert(50%) contrast(200%) grayscale(100%) hue-rotate(180deg) saturate(1000%) sepia(500%);
+}
+
+.high-contrast header {
+  background: #111; /* Very dark background */
+  border-bottom: 2px solid #FFD700; /* High contrast gold */
+}
+
+
+.high-contrast nav a {
+  color: #FFD700; 
+  font-weight: bold;
+}
+
+.high-contrast nav a:hover {
+  color: #FF4500; 
+}
+
+/* ==================*/
+/* = HIGH  CONTRAST =*/
+/* ==================*/

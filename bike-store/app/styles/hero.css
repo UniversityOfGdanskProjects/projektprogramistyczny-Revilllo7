@@ -1,0 +1,212 @@
+/* hero.css */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px;
+    margin-top: 3.25rem;
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    color: var(--white);
+    text-align: center;
+    border-radius: var(--border-radius);
+    position: relative;
+    overflow: hidden;
+    animation: sparkle 3s infinite alternate;
+    background-color: var(--dark-color);
+    z-index: 2;
+    gap: 20px;
+}
+
+@keyframes sparkle {
+    0% { filter: brightness(1); }
+    100% { filter: brightness(1.2); }
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero-content form {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    width: fit-content;
+}
+
+.hero-heading {
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 3px 3px 10px rgba(255, 255, 255, 0.3);
+}
+
+.hero-subheading {
+    font-size: 1.2rem;
+    margin: 15px 0;
+}
+
+.newsletter-form {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.newsletter-input {
+    padding: 10px;
+    border-radius: var(--border-radius);
+    border: none;
+    outline: none;
+    font-size: 1rem;
+}
+
+.newsletter-button {
+    padding: 10px 20px;
+    background: var(--white);
+    color: var(--primary-color);
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+}
+
+.newsletter-button:hover {
+    background: var(--secondary-color);
+    color: var(--white);
+}
+
+.hero-image img {
+    max-width: 1200px;
+    border-radius: var(--border-radius);
+    box-shadow: 0 4px 6px var(--shadow);
+}
+
+/* ==================*/
+/* === RESPONSIVE ===*/
+/* ==================*/
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .hero-heading {
+        font-size: 2rem;
+    }
+
+    .hero-image img {
+        max-width: 100%;
+    }
+}
+/* ==================*/
+/* === RESPONSIVE ===*/
+/* ==================*/
+
+
+
+
+
+/* ==================*/
+/* === DARK  MODE ===*/
+/* ==================*/
+.dark-mode .hero {
+    color: var(--dark-white);
+    background: linear-gradient(135deg, var(--grey-44), var(--dark-bg));
+    color: var(--dark-white);
+    animation: dark-sparkle 3s infinite alternate;
+}
+
+@keyframes dark-sparkle {
+    0% { filter: brightness(0.7); }
+    100% { filter: brightness(1); }
+}
+
+.dark-mode .hero h1 {
+    color: var(--white);
+}
+
+.dark-mode .hero p {
+    color: var(--grey);
+}
+
+.dark-mode .hero button {
+    background: var(--dark-accent-blue);
+    color: var(--white);
+}
+
+.dark-mode .hero button:hover {
+    background: var(--primary-color-darker);
+}
+/* ==================*/
+/* === DARK  MODE ===*/
+/* ==================*/
+
+
+
+
+
+
+/* ==================*/
+/* = HIGH  CONTRAST =*/
+/* ==================*/
+.high-contrast .team-member {
+    background: #222;
+    color: #FFF;
+    border-radius: 5px;
+    padding: 15px;
+    border: 2px solid #FFD700;
+}
+
+
+.high-contrast footer {
+    background: #111;
+    color: #FFF;
+    border-top: 2px solid #FFD700;
+}
+
+.high-contrast .footer-links a {
+    color: #FFD700;
+}
+
+.high-contrast .footer-links a:hover {
+    color: #FF4500;
+}
+
+.high-contrast .hero {
+    background: linear-gradient(135deg, #222, #777);
+    color: #FFF;
+    animation: high-contrast-sparkle 10s infinite alternate;
+}
+
+.high-contrast .hero img {
+    scale: 1;
+    margin-right: 30px;
+    margin-top: 50px;
+}
+
+@keyframes high-contrast-sparkle {
+    0% { filter: brightness(0.8); }
+    100% { filter: brightness(1.2); }
+}
+
+.high-contrast .hero h1 {
+    color: #FFD700;
+}
+
+.high-contrast .hero p {
+    color: #EEE;
+}
+
+.high-contrast .hero button {
+    background: #FFD700;
+    color: #000;
+    font-weight: bold;
+}
+
+.high-contrast .hero button:hover {
+    background: #FF4500;
+    color: #000;
+}
+/* ==================*/
+/* = HIGH  CONTRAST =*/
+/* ==================*/
