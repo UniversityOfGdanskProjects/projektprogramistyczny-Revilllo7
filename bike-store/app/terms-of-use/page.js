@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Footer from '.,/components/footer'
 
 export default function TermsOfUse() {
     return (
@@ -13,5 +14,7 @@ export default function TermsOfUse() {
                 <Link href="/">Back to Home</Link>
             </div>
         </div>
+
+        <Footer />
     );
 }
