@@ -15,7 +15,7 @@ export default function TranslationMenu() {
         en: "English",
         pl: "Polski",
         de: "Deutsch",
-        fr: "Français",
+        hu: "Magyar",
         es: "Español",
         ru: "Русский",
         jp: "日本語",
