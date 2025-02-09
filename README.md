@@ -53,7 +53,7 @@ Aplikacja typu landing page to dedykowana strona internetowa zaprojektowana z my
 | useMemo | Optymalizacja renderowania komponentów. | 0.4 | 0.4 | ✅ |  |
 | useRef | Przechowywanie odniesień do elementów DOM lub wartości między renderami. | 0.2 | 0.2 | ✅ |  |
 | useReducer | Alternatywne zarządzanie stanem komponentu. | 0.6 | 0.6 | ✅ |  |
-| useContext | Zarządzanie stanem globalnym w aplikacji. | 0.4 | 0 | ❌ | Nie wykorzysatno useCOntext |
+| useContext | Zarządzanie stanem globalnym w aplikacji. | 0.4 | 0 | ❌ | Nie wykorzysatno useContext |
 | useCallback | Optymalizacja funkcji zależnych od zależności. | 0.4 | 0.4 | ✅ |  |
 | Pobieranie danych z API | Wykorzystanie fetch lub biblioteki do pobierania danych. | 0.6 | 0.6 | ❌ | Postujemy dane z API, nie fetchujemy ich |
 | Własne Hooki | Zdefiniowanie i użycie własnych Hooków w aplikacji. | 0.6 | 0.6 | ❌ | Stworzony, ale ostatecznie nie wykorzystany |
@@ -139,7 +139,7 @@ A landing page application is a dedicated website designed to effectively presen
 | useMemo | Optimization of component rendering. | 0.4 | 0.4 | ✅ |  |
 | useRef | Storing references to DOM elements or values between renders. | 0.2 | 0.2 | ✅ |  |
 | useReducer | Alternative component state management. | 0.6 | 0.6 | ✅ |  |
-| useContext | Global state management in the application. | 0.4 | 0 | ❌ | Didn't use useCOntext |
+| useContext | Global state management in the application. | 0.4 | 0 | ❌ | Didn't use useContext |
 | useCallback | Optimization of functions dependent on dependencies.	 | 0.4 | 0.4 | ✅ |  |
 | Fetching data from API | Use of fetch or a library for data retrieval.	 | 0.6 | 0.6 | ❌ | We post data to the API, we don't fetch it |
 | Custom Hooki | Defining and using custom hooks in the application. | 0.6 | 0.6 | ❌ | Created the hook, didn't use it in the end |
@@ -169,4 +169,4 @@ A landing page application is a dedicated website designed to effectively presen
 | Repository status.	  | 0 | |
 
 ---
-[^1]: Deploy link [Netlify]([https://animated-jelly-4608b7.netlify.app](https://67a8f8fb0e3cc32543d2c218--bejewelled-gelato-ebeb67.netlify.app))
+[^1]: [Deploy Link](https://67a8f8fb0e3cc32543d2c218--bejewelled-gelato-ebeb67.netlify.app)
