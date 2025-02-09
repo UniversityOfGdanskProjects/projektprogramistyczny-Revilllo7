@@ -28,7 +28,7 @@ Aplikacja typu landing page to dedykowana strona internetowa zaprojektowana z my
 | Walidacja danych | System walidacji danych wejściowych użytkownika. | 6.00% | 1.2 | 1.2 | ✅ |  |
 | Integracja z mediami społecznościowymi | Możliwość udostępniania treści na platformach społecznościowych. | 4.00% | 0.8 | 0.8 | ✅ |  |
 | Dostępność | ARIA, kontrast kolorów, czytelność tekstu dla osób z niepełnosprawnościami. | 4.00% | 0.8 | 0.8 | ✅ |  |
-| Wielojęzyczność | Obsługa wielu języków i lokalizacji. | 4.00% | 0.8 | 0 | ❌ | Nie spróbowano |
+| Wielojęzyczność | Obsługa wielu języków i lokalizacji. | 4.00% | 0.8 | 0 | ✅ | Tłumaczenie na 10 różnych języków |
 | Personalizacja | Dostosowanie treści do preferencji użytkownika. | 3.00% | 0.8 | 0.8 | ✅ |  |
 
 ---
@@ -55,8 +55,8 @@ Aplikacja typu landing page to dedykowana strona internetowa zaprojektowana z my
 | useReducer | Alternatywne zarządzanie stanem komponentu. | 0.6 | 0.6 | ✅ |  |
 | useContext | Zarządzanie stanem globalnym w aplikacji. | 0.4 | 0 | ❌ | Nie wykorzysatno useCOntext |
 | useCallback | Optymalizacja funkcji zależnych od zależności. | 0.4 | 0.4 | ✅ |  |
-| Pobieranie danych z API | Wykorzystanie fetch lub biblioteki do pobierania danych. | 0.6 | 0.6 | ✅ |  |
-| Własne Hooki | Zdefiniowanie i użycie własnych Hooków w aplikacji. | 0.6 | 0.6 | ✅ |  |
+| Pobieranie danych z API | Wykorzystanie fetch lub biblioteki do pobierania danych. | 0.6 | 0.6 | ❌ | Postujemy dane z API, nie fetchujemy ich |
+| Własne Hooki | Zdefiniowanie i użycie własnych Hooków w aplikacji. | 0.6 | 0.6 | ❌ | Stworzony, ale ostatecznie nie wykorzystany |
 | Formik | Zarządzanie formularzami za pomocą Formik. | 0.6 | 0.6 | ✅ |  |
 | Uniwersalne komponenty | Tworzenie wielokrotnego użytku komponentów UI. | 0.6 | 0.6 | ✅ |  |
 | Routing | Implementacja routingu w aplikacji. | 0.6 | 0.6 | ✅ |  |
@@ -114,7 +114,7 @@ A landing page application is a dedicated website designed to effectively presen
 | Data Validation | System for validating user input. | 6.00% | 1.2 | 1.2 | ✅ |  |
 | Social Media Integration | Ability to share content on social media platforms. | 4.00% | 0.8 | 0.8 | ✅ |  |
 | Accessibility | ARIA, color contrast, text readability for people with disabilities. | 4.00% | 0.8 | 0.8 | ✅ |  |
-| Multilingual Support | Support for multiple languages and locations. | 4.00% | 0.8 | 0 | ❌ | Didn't attempt |
+| Multilingual Support | Support for multiple languages and locations. | 4.00% | 0.8 | 0 | ✅ | Available in 10 different languages |
 | Personalization | Customization of content based on user preferences.	 | 3.00% | 0.8 | 0.8 | ✅ |  |
 
 ---
@@ -141,8 +141,8 @@ A landing page application is a dedicated website designed to effectively presen
 | useReducer | Alternative component state management. | 0.6 | 0.6 | ✅ |  |
 | useContext | Global state management in the application. | 0.4 | 0 | ❌ | Didn't use useCOntext |
 | useCallback | Optimization of functions dependent on dependencies.	 | 0.4 | 0.4 | ✅ |  |
-| Fetching data from API | Use of fetch or a library for data retrieval.	 | 0.6 | 0.6 | ✅ |  |
-| Custom Hooki | Defining and using custom hooks in the application. | 0.6 | 0.6 | ✅ |  |
+| Fetching data from API | Use of fetch or a library for data retrieval.	 | 0.6 | 0.6 | ❌ | We post data to the API, we don't fetch it |
+| Custom Hooki | Defining and using custom hooks in the application. | 0.6 | 0.6 | ❌ | Created the hook, didn't use it in the end |
 | Formik | Managing forms using Formik. | 0.6 | 0.6 | ✅ |  |
 | Universal Components | Creating reusable UI components. | 0.6 | 0.6 | ✅ |  |
 | Routing | Implementing routing in the application. | 0.6 | 0.6 | ✅ |  |
@@ -169,4 +169,4 @@ A landing page application is a dedicated website designed to effectively presen
 | Repository status.	  | 0 | |
 
 ---
-[^1]: Deploy link [Netlify](https://animated-jelly-4608b7.netlify.app)
+[^1]: Deploy link [Netlify]([https://animated-jelly-4608b7.netlify.app](https://67a8f8fb0e3cc32543d2c218--bejewelled-gelato-ebeb67.netlify.app))
