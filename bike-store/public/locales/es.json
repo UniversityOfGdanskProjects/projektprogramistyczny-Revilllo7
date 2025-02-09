@@ -1,0 +1,127 @@
+{
+    "header": {
+        "motto": "¡Conduce el futuro - Tu bicicleta perfecta te espera!",
+        "about": "Sobre nosotros",
+        "features": "Nuestras bicicletas",
+        "testimonials": "Opiniones de clientes",
+        "contact": "Contáctanos"
+    },
+    "hero": {
+        "email": {
+            "wrong": "¡Algo salió mal!",
+            "error": "¡Error al guardar, por favor intenta de nuevo!",
+            "enter": "Ingresa tu correo electrónico"
+        },
+        "header": "¡Consíguela ahora!",
+        "newsletter": "Suscríbete a nuestro boletín para saber cuándo estarán disponibles nuestras bicicletas más nuevas",
+        "button": "Suscribirse"
+    },
+    "about": {
+        "heading": "¡Sobre nosotros!",
+        "mission": "Nuestra misión es ofrecerte una experiencia de ciclismo de alta calidad que cambie tu vida, al alcance de tu sillín",
+        "values": {
+            "heading": "¡Las principales cualidades de nuestras bicicletas!",
+            "1": "Ecológicas",
+            "2": "Duraderas",
+            "3": "Transformadoras",
+            "4": "Cómodas",
+            "5": "Ligera"
+        },
+        "team": {
+            "heading": "Todo esto gracias a nuestros maravillosos investigadores",
+            "members": {
+                "member1": {
+                    "alt": "Miembro 1",
+                    "description": "David es un joven y apasionado ciclista, que pasó 27 años de su vida montando y conduciendo bicicletas. Ha participado en carreras de descenso hasta llegar al Tour de Francia, pero después de inyectarse esteroides en sus glúteos, ya no puede hacer nada más que sentarse sobre el sillín de la bicicleta."
+                },
+                "member2": {
+                    "alt": "Miembro 2",
+                    "description": "Joven y motivada deportista con mucha experiencia. La gemela malvada de David Motorbike. Ella fue la que resucitó a Maurice. También es una amiga maravillosa y merece ser inmortalizada en un proyecto web tonto"
+                },
+                "member3": {
+                    "alt": "Miembro 3",
+                    "description": "Después de años de estar muerto, Maurice decidió desenterrarse para mostrarle al mundo del ciclismo cómo se hace. Después de todo, estar muerto es solo una excusa, el ciclismo es eterno.",
+                    "name": "Maurice Garin Renacido"
+                }
+            }
+        }
+    },
+    "features": {
+        "header": "Lo que nuestras bicicletas ofrecen",
+        "1": {
+            "feature": "Marco mejorado con fibra de carbono",
+            "description": "Garantiza ligereza mientras ofrece una durabilidad de calidad NASA"
+        },
+        "2": {
+            "feature": "Mezcla de aire presurizado con nitrógeno",
+            "description": "Ayuda a reducir la fuga de aire cuando el tubo se rompe"
+        },
+        "3": {
+            "feature": "Amortiguadores conectados por WiFi/Bluetooth",
+            "description": "Usa WiFi o Bluetooth para ajustar los amortiguadores según el GPS de tu teléfono"
+        },
+        "4": {
+            "feature": "Sistema Anti-Aplastamiento de coches",
+            "description": "Los altavoces emiten sonidos del silbido de muerte maya a los coches que se acercan para que reduzcan la velocidad"
+        },
+        "5": {
+            "feature": "Radios afilados",
+            "description": "Garantiza la seguridad del usuario al poder cortar objetos, protegiendo de palos o pequeños animales"
+        },
+        "6": {
+            "feature": "Sistema de refrigeración de glúteos",
+            "description": "Orificios especialmente diseñados en el sillín para optimizar el flujo de aire y efectos de enfriamiento"
+        },
+        "7": {
+            "feature": "Sistema de frenos accionado por gritos",
+            "description": "Cuando se detectan gritos humanos superiores a 100dB, los frenos se activan, deteniendo la bicicleta completamente a 130dB"
+        },
+        "8": {
+            "feature": "Dínamo para cargar el teléfono",
+            "description": "Sistema especial que convierte la energía cinética en electricidad para cargar tu teléfono"
+        }
+    },
+    "testimonials": {
+        "header": "¡Nuestras valoraciones!",
+        "more": "¡Leer más!"
+    },
+    "gallery": {
+        "header": "Nuestra galería"
+    },
+    "form": {
+        "alert": "¡Tu mensaje ha sido enviado!",
+        "header": "¡Contáctanos!",
+        "name": "Nombre",
+        "name.placeholder": "Escribe tu nombre aquí...",
+        "surname": "Apellido",
+        "surname.placeholder": "Escribe tu apellido aquí...",
+        "email.placeholder": "Pon tu correo electrónico aquí",
+        "number": "Número",
+        "number.placeholder": "Ejemplo de número: 123-456-789",
+        "message": "Mensaje",
+        "message.placeholder": "Escribe tu mensaje aquí",
+        "required": "(*) campos obligatorios",
+        "submit": "Enviar"
+    },
+    "social": {
+        "header": "¿Te gustó? ¡Compártenos con el mundo!"
+    },
+    "footer": {
+        "contact": "Contáctanos en",
+        "phone": "Teléfono",
+        "aria": {
+            "facebook": "¡Visita nuestra página de Facebook!",
+            "instagram": "¡Visita nuestro Instagram!",
+            "x": "¡Síguenos en X!",
+            "linktree": "¡Más de nosotros en Linktree!"
+        },
+        "policy": "Política de privacidad",
+        "terms": "Términos de servicio"
+    },
+    "preferences": {
+        "img": "Configuraciones de accesibilidad",
+        "fonts": "Elige tu fuente preferida",
+        "dark": "¿Apagar las luces?",
+        "high": "Modo de alto contraste"
+    }
+}

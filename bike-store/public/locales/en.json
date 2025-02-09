@@ -1,0 +1,127 @@
+{
+    "header": {
+        "motto": "Ride the Future - Your Perfect Bike Awaits!",
+        "about": "About us",
+        "features": "Our bikes",
+        "testimonials": "Customer opinions",
+        "contact": "Contact us"
+    },
+    "hero": {
+        "email": {
+            "wrong": "Something went wrong!",
+            "error": "Error while saving, please try again!",
+            "enter": "Enter your email"
+        },
+        "header": "Get yours now!",
+        "newsletter": "Sign up to our newsletter to know when our newest bikes are available",
+        "button": "Sign up"
+    },
+    "about": {
+        "heading": "About us!",
+        "mission": "Our mission is high quality life changing biking experience at the tip of your saddle",
+        "values": {
+            "heading": "Our Bikes Top Qualities!",
+            "1": "Eco-friendly",
+            "2": "Durable",
+            "3": "Life-changing",
+            "4": "Comfortable",
+            "5": "Light weight"
+        },
+        "team": {
+            "heading": "All brought to you by our wonderul researchers",
+            "members": {
+                "member1": {
+                    "alt": "Member 1",
+                    "description": "David is a young and passionate fella, who spent 27 years of his entire life, sitting and riding bikes. He's done gravity racing all the way to Tour de France, however after injecting steroids in his buttocks, he can no longer do anything besides sitting on the bike saddle."
+                },
+                "member2": {
+                    "alt": "Member 2",
+                    "description": "Young and motivated sportswoman with tons of experience. Evil twin of David Motorbike. She's the one who ressurected Maurice. She is also a wonderful friend and deserves to get immortalised on a silly website project"
+                },
+                "member3": {
+                    "alt": "Member 3",
+                    "description": "After years of being dead, Maurice deicded to dig himself out to show the biking world how it's done - after all, being dead is just an excuse, biking is eternal.",
+                    "name": "Maurice Garin Reborn"
+                }
+            }
+        }
+    },
+    "features": {
+        "header": "What our bikes feature",
+        "1": {
+            "feature": "Carbon fibre enhanced frame",
+            "description": "Ensures light-weight while bringing NASA-grade durability"
+        },
+        "2": {
+            "feature": "Nitrogen filled pressurised air mix",
+            "description": "Helps slow down the air leak when the tube breaks"
+        },
+        "3": {
+            "feature": "WiFi/Bluetooth connected shocks",
+            "description": "Uses WiFi or Bluetooth to adjust the shock absorbers based on your phone's GPS"
+        },
+        "4": {
+            "feature": "Anti-Car drive-over system",
+            "description": "Loudspeakers blast Mayan death whistle sounds at upcoming cars to get them to slow down"
+        },
+        "5": {
+            "feature": "Sharp spokes",
+            "description": "Ensures user's safety by being able to cut items, protecting from sticks or small animals"
+        },
+        "6": {
+            "feature": "Buttocks cooling system",
+            "description": "Specially engineered holes in the saddle to optimize airflow for cooling effects"
+        },
+        "7": {
+            "feature": "Scream-powered braking system",
+            "description": "When detecting human screams above 100dB, brakes activate, halting the bike completely at 130dB"
+        },
+        "8": {
+            "feature": "Phone charging dynamo",
+            "description": "Special system converting kinetic energy to electricity to charge your phone"
+        }
+    },
+    "testimonials": {
+        "header": "Our Ratings!",
+        "more": "Read more!"
+    },
+    "gallery": {
+        "header": "Our Gallery"
+    },
+    "form": {
+        "alert": "Your message has been sent!",
+        "header": "Contact us!",
+        "name": "Name",
+        "name.placeholder": "First name here...",
+        "surname": "Surname",
+        "surname.placeholder": "Surname goes here...",
+        "email.placeholder": "Rock your email in this place",
+        "number": "Number",
+        "number.placeholder": "Number example: 123-456-789",
+        "message": "Message",
+        "message.placeholder": "Your message should be ridin' here",
+        "required": "(*) required fields",
+        "submit": "Submit"
+    },
+    "social": {
+        "header": "Enjoyed? Share us with the world!"
+    },
+    "footer": {
+        "contact": "Contact us at",
+        "phone": "Phone",
+        "aria": {
+            "facebook": "Go to our Facebook page!",
+            "instagram": "Visit our Instagram!",
+            "x": "Follow us on X!",
+            "linktree": "More of us on Linktree!"
+        },
+        "policy": "Privacy Policy",
+        "terms": "Terms of Service"
+    },
+    "preferences": {
+        "img": "Accessibility settings",
+        "fonts": "Choose preferred font",
+        "dark": "Turn off the lights?",
+        "high": "High contrast mode"
+    }
+}

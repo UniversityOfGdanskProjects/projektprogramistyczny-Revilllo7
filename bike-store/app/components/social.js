@@ -1,7 +1,10 @@
 'use client';
 import "../styles/social.css";
+import { useTranslation } from "react-i18next";
 
 const Social = ({ url, title }) => {
+    const { t } = useTranslation();
+
     const shareOptions = [
         {
             name: 'Facebook',
@@ -27,7 +30,7 @@ const Social = ({ url, title }) => {
 
     return (
         <div className="social-container">
-            <h3>Enjoyed? Share us with the world!</h3>
+            <h3>{t('social.header')}</h3>
             <div>
             {shareOptions.map((platform) => (
                 <a
@@ -38,7 +41,7 @@ const Social = ({ url, title }) => {
                     className="social-link"
                 >
                     <span className="social-icon">{platform.icon}</span>
-                    {platform.name}
+                    {(platform.name)}
                 </a>
             ))}
             </div>

@@ -1,0 +1,132 @@
+/* ===== Translation Menu ===== */
+.translation-menu {
+    position: absolute;
+    top: 8rem; 
+    right: 20px;
+    z-index: 3;
+}
+
+/* ===== Button Styles ===== */
+.translation-button {
+    background: var(--dark-white);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: background 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--dark-white);
+}
+
+.translation-button img {
+    width: 2rem;
+    height: 2rem;
+}
+
+.translation-button:hover {
+    background: var(--white);
+    transform: scale(1.1);
+}
+
+/* ===== Dropdown Menu ===== */
+.translation-dropdown {
+    position: absolute;
+    top: 50px;
+    right: -12px;
+    background: var(--dark-shadow);
+    border-radius: var(--border-radius);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    width: 150px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+}
+
+/* ===== Language Options ===== */
+.translation-option {
+    padding: 10px;
+    background: var(--shadow);
+    border: none;
+    cursor: pointer;
+    border-radius: var(--border-radius);
+    transition: background 0.3s ease;
+    font-size: 1.3rem;
+    text-align: left;
+    color: var(--dark-white);
+}
+
+.translation-option:hover {
+    background: var(--primary-color-transparent);
+}
+
+/* ==================*/
+/* === DARK  MODE ===*/
+/* ==================*/
+.dark-mode .translation-button {
+    filter: invert(1);
+    background: var(--white);
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
+}
+
+.dark-mode .translation-dropdown {
+    background: var(--gallery-bg-color);
+}
+
+.dark-mode .translation-option {
+    color: var(--white);
+}
+
+.dark-mode .translation-option:hover {
+    background: var(--primary-color-transparent);
+}
+
+.dark-mode .translation-dropdown button {
+    background: var(--secondary-color-lighter);
+}
+/* ==================*/
+/* === DARK  MODE ===*/
+/* ==================*/
+
+
+/* ==================*/
+/* = HIGH  CONTRAST =*/
+/* ==================*/
+.high-contrast .translation-button {
+    background: white;
+    border: 2px solid #FFD700;
+    filter: invert(1);
+}
+
+.high-contrast .translation-menu:hover {
+    background: #FFD700;
+    transform: scale(1.1);
+    border-radius: var(--border-radius);
+}
+
+.high-contrast .translation-dropdown {
+    background: #000;
+    border: 2px solid #FFD700;
+}
+
+.high-contrast .translation-dropdown {
+    background: var(--gallery-bg-color);
+}
+
+.high-contrast .translation-option {
+    color: var(--dark-color);
+    font-size: 1.75rem;
+}
+
+.high-contrast .translation-option:hover {
+    background: #222;
+    color: #FFF;
+}
+/* ==================*/
+/* = HIGH  CONTRAST =*/
+/* ==================*/

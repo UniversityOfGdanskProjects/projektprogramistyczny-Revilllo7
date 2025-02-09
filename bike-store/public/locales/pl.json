@@ -1,0 +1,127 @@
+{
+    "header": {
+        "motto": "Jedź w przyszłość - Twój idealny rower czeka!",
+        "about": "O nas",
+        "features": "Nasze rowery",
+        "testimonials": "Opinie klientów",
+        "contact": "Kontakt"
+    },
+    "hero": {
+        "email": {
+            "wrong": "Coś poszło nie tak!",
+            "error": "Błąd podczas zapisywania, spróbuj ponownie!",
+            "enter": "Wpisz swój e-mail"
+        },
+        "header": "Zdobądź swój już teraz!",
+        "newsletter": "Zapisz się do naszego newslettera, aby dowiedzieć się, kiedy nasze najnowsze rowery będą dostępne",
+        "button": "Zapisz się"
+    },
+    "about": {
+        "heading": "O nas!",
+        "mission": "Naszą misją jest dostarczanie wysokiej jakości, zmieniających życie doświadczeń rowerowych na wyciągnięcie ręki",
+        "values": {
+            "heading": "Najlepsze cechy naszych rowerów!",
+            "1": "Ekologiczne",
+            "2": "Trwałe",
+            "3": "Zmieniające życie",
+            "4": "Wygodne",
+            "5": "Lekkie"
+        },
+        "team": {
+            "heading": "Wszystko to dzięki naszym wspaniałym badaczom",
+            "members": {
+                "member1": {
+                    "alt": "Członek 1",
+                    "description": "David to młody i pełen pasji facet, który spędził 27 lat swojego życia, siedząc i jeżdżąc na rowerze. Ścigał się w zawodach grawitacyjnych aż po Tour de France, jednak po wstrzyknięciu sterydów w pośladki, nie może już robić nic poza siedzeniem na siodełku."
+                },
+                "member2": {
+                    "alt": "Członek 2",
+                    "description": "Młoda i zmotywowana sportsmenka z ogromnym doświadczeniem. Zła bliźniaczka Davida Motorbike’a. To ona wskrzesiła Maurice’a. Jest także cudowną przyjaciółką i zasługuje na uwiecznienie na tym zabawnym projekcie strony."
+                },
+                "member3": {
+                    "alt": "Członek 3",
+                    "description": "Po latach bycia martwym, Maurice postanowił się odkopać, aby pokazać światu rowerowemu, jak to się robi – w końcu bycie martwym to tylko wymówka, jazda na rowerze jest wieczna.",
+                    "name": "Maurice Garin Odrodzony"
+                }
+            }
+        }
+    },
+    "features": {
+        "header": "Co oferują nasze rowery",
+        "1": {
+            "feature": "Wzmocniona rama z włókna węglowego",
+            "description": "Zapewnia lekkość przy jednoczesnej trwałości na poziomie NASA"
+        },
+        "2": {
+            "feature": "Azotowa mieszanka sprężonego powietrza",
+            "description": "Pomaga spowolnić wyciek powietrza, gdy przebije się dętka"
+        },
+        "3": {
+            "feature": "Amortyzatory połączone z WiFi/Bluetooth",
+            "description": "Korzysta z WiFi lub Bluetooth do regulacji amortyzatorów na podstawie GPS w telefonie"
+        },
+        "4": {
+            "feature": "System ochrony przed przejechaniem przez samochód",
+            "description": "Głośniki emitują dźwięk Majskiego gwizdka śmierci w kierunku nadjeżdżających samochodów, aby je spowolnić"
+        },
+        "5": {
+            "feature": "Ostre szprychy",
+            "description": "Zapewniają bezpieczeństwo użytkownika, umożliwiając przecinanie przedmiotów, chroniąc przed gałęziami lub małymi zwierzętami"
+        },
+        "6": {
+            "feature": "System chłodzenia pośladków",
+            "description": "Specjalnie zaprojektowane otwory w siodełku optymalizujące przepływ powietrza dla efektu chłodzenia"
+        },
+        "7": {
+            "feature": "System hamowania napędzany krzykiem",
+            "description": "Po wykryciu ludzkiego krzyku powyżej 100 dB, hamulce aktywują się, zatrzymując rower całkowicie przy 130 dB"
+        },
+        "8": {
+            "feature": "Dynamo ładujące telefon",
+            "description": "Specjalny system przekształcający energię kinetyczną w elektryczność do ładowania telefonu"
+        }
+    },
+    "testimonials": {
+        "header": "Nasze oceny!",
+        "more": "Czytaj więcej!"
+    },
+    "gallery": {
+        "header": "Nasza Galeria"
+    },
+    "form": {
+        "alert": "Twoja wiadomość została wysłana!",
+        "header": "Skontaktuj się z nami!",
+        "name": "Imię",
+        "name.placeholder": "Podaj imię...",
+        "surname": "Nazwisko",
+        "surname.placeholder": "Tutaj wpisz nazwisko...",
+        "email.placeholder": "Wpisz tutaj swój e-mail",
+        "number": "Numer",
+        "number.placeholder": "Przykład numeru: 123-456-789",
+        "message": "Wiadomość",
+        "message.placeholder": "Twoja wiadomość powinna tu się znaleźć",
+        "required": "(*) pola wymagane",
+        "submit": "Wyślij"
+    },
+    "social": {
+        "header": "Podobało się? Podziel się z innymi!"
+    },
+    "footer": {
+        "contact": "Skontaktuj się z nami",
+        "phone": "Telefon",
+        "aria": {
+            "facebook": "Przejdź na naszą stronę Facebook!",
+            "instagram": "Odwiedź nasz Instagram!",
+            "x": "Obserwuj nas na X!",
+            "linktree": "Więcej o nas na Linktree!"
+        },
+        "policy": "Polityka prywatności",
+        "terms": "Regulamin"
+    },
+    "preferences": {
+        "img": "Ustawienia dostępności",
+        "fonts": "Wybierz preferowaną czcionkę",
+        "dark": "Wyłączyć światła?",
+        "high": "Tryb wysokiego kontrastu"
+    }
+}

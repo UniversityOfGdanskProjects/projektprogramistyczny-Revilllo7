@@ -1,0 +1,127 @@
+{
+    "header": {
+        "motto": "Fahre die Zukunft - Dein perfektes Fahrrad wartet!",
+        "about": "Über uns",
+        "features": "Unsere Fahrräder",
+        "testimonials": "Kundenmeinungen",
+        "contact": "Kontaktiere uns"
+    },
+    "hero": {
+        "email": {
+            "wrong": "Etwas ist schiefgelaufen!",
+            "error": "Fehler beim Speichern, bitte versuche es erneut!",
+            "enter": "Gib deine E-Mail ein"
+        },
+        "header": "Hol dir deins jetzt!",
+        "newsletter": "Melde dich für unseren Newsletter an, um zu erfahren, wann unsere neuesten Fahrräder verfügbar sind",
+        "button": "Anmelden"
+    },
+    "about": {
+        "heading": "Über uns!",
+        "mission": "Unsere Mission ist es, ein hochwertiges, lebensveränderndes Fahrraderlebnis direkt an deinen Sattel zu bringen",
+        "values": {
+            "heading": "Die Top-Qualitäten unserer Fahrräder!",
+            "1": "Umweltfreundlich",
+            "2": "Langlebig",
+            "3": "Lebensverändernd",
+            "4": "Bequem",
+            "5": "Leicht"
+        },
+        "team": {
+            "heading": "All das wird dir von unseren wunderbaren Forschern gebracht",
+            "members": {
+                "member1": {
+                    "alt": "Mitglied 1",
+                    "description": "David ist ein junger und leidenschaftlicher Typ, der 27 Jahre seines Lebens auf dem Fahrrad verbracht hat. Er hat alles gemacht, von Gravity Racing bis zur Tour de France. Doch nach einer unglücklichen Steroidinjektion kann er nun nichts anderes mehr tun, als auf dem Sattel zu sitzen."
+                },
+                "member2": {
+                    "alt": "Mitglied 2",
+                    "description": "Junge und motivierte Sportlerin mit jeder Menge Erfahrung. Die böse Zwillingsschwester von David Motorbike. Sie hat Maurice wiederbelebt. Sie ist zudem eine wunderbare Freundin und verdient es, auf einem lustigen Webseitenprojekt verewigt zu werden."
+                },
+                "member3": {
+                    "alt": "Mitglied 3",
+                    "description": "Nach Jahren des Totseins entschied sich Maurice, sich selbst auszugraben, um der Fahrradwelt zu zeigen, wie es geht – schließlich ist tot sein nur eine Ausrede, Fahrradfahren ist ewig. ",
+                    "name": "Maurice Garin Wiedergeboren"
+                }
+            }
+        }
+    },
+    "features": {
+        "header": "Was unsere Fahrräder auszeichnet",
+        "1": {
+            "feature": "Kohlefaserverstärkter Rahmen",
+            "description": "Sorgt für geringes Gewicht und bringt gleichzeitig NASA-Qualität in Sachen Haltbarkeit"
+        },
+        "2": {
+            "feature": "Stickstoffgefüllte Druckluftmischung",
+            "description": "Hilft, den Luftverlust zu verlangsamen, wenn der Schlauch beschädigt wird"
+        },
+        "3": {
+            "feature": "WLAN/Bluetooth-verbundene Stoßdämpfer",
+            "description": "Verwendet WLAN oder Bluetooth, um die Stoßdämpfer basierend auf dem GPS deines Handys anzupassen"
+        },
+        "4": {
+            "feature": "Anti-Auto-Überfahr-Schutzsystem",
+            "description": "Lautsprecher spielen Maya-Todespfeifen-Sounds ab, um herannahende Autos zum Abbremsen zu bewegen"
+        },
+        "5": {
+            "feature": "Scharfe Speichen",
+            "description": "Sorgt für die Sicherheit des Nutzers, indem sie Gegenstände zerschneiden können – Schutz vor Stöcken oder kleinen Tieren"
+        },
+        "6": {
+            "feature": "Gesäßkühlsystem",
+            "description": "Speziell konstruierte Löcher im Sattel optimieren den Luftstrom für einen Kühlungseffekt"
+        },
+        "7": {
+            "feature": "Schreikraft-Bremssystem",
+            "description": "Wenn menschliche Schreie über 100 dB erkannt werden, werden die Bremsen aktiviert und stoppen das Fahrrad vollständig bei 130 dB"
+        },
+        "8": {
+            "feature": "Handylade-Dynamo",
+            "description": "Spezielles System, das kinetische Energie in Elektrizität umwandelt, um dein Handy aufzuladen"
+        }
+    },
+    "testimonials": {
+        "header": "Unsere Bewertungen!",
+        "more": "Mehr lesen!"
+    },
+    "gallery": {
+        "header": "Unsere Galerie"
+    },
+    "form": {
+        "alert": "Deine Nachricht wurde gesendet!",
+        "header": "Kontaktiere uns!",
+        "name": "Name",
+        "name.placeholder": "Vorname hier eingeben...",
+        "surname": "Nachname",
+        "surname.placeholder": "Nachname hier eingeben...",
+        "email.placeholder": "Hier deine E-Mail eingeben",
+        "number": "Nummer",
+        "number.placeholder": "Beispielnummer: 123-456-789",
+        "message": "Nachricht",
+        "message.placeholder": "Deine Nachricht sollte hier rein...",
+        "required": "(*) Pflichtfelder",
+        "submit": "Absenden"
+    },
+    "social": {
+        "header": "Hat es dir gefallen? Teile uns mit der Welt!"
+    },
+    "footer": {
+        "contact": "Kontaktiere uns unter",
+        "phone": "Telefon",
+        "aria": {
+            "facebook": "Besuche unsere Facebook-Seite!",
+            "instagram": "Besuche unser Instagram!",
+            "x": "Folge uns auf X!",
+            "linktree": "Mehr von uns auf Linktree!"
+        },
+        "policy": "Datenschutzrichtlinie",
+        "terms": "Nutzungsbedingungen"
+    },
+    "preferences": {
+        "img": "Einstellungen zur Barrierefreiheit",
+        "fonts": "Bevorzugte Schriftart wählen",
+        "dark": "Licht ausschalten?",
+        "high": "Modus mit hohem Kontrast"
+    }
+}

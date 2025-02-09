@@ -1,0 +1,127 @@
+{
+    "header": {
+        "motto": "骑行未来 - 您的完美自行车在等待！",
+        "about": "关于我们",
+        "features": "我们的自行车",
+        "testimonials": "客户评价",
+        "contact": "联系我们"
+    },
+    "hero": {
+        "email": {
+            "wrong": "出错了！",
+            "error": "保存时出错，请重试！",
+            "enter": "请输入您的电子邮件"
+        },
+        "header": "立即获取您的自行车！",
+        "newsletter": "注册我们的新闻通讯，了解我们最新的自行车何时发布",
+        "button": "注册"
+    },
+    "about": {
+        "heading": "关于我们！",
+        "mission": "我们的使命是提供高质量的改变生活的骑行体验，就在您的车座上。",
+        "values": {
+            "heading": "我们自行车的顶级品质！",
+            "1": "环保",
+            "2": "耐用",
+            "3": "改变人生",
+            "4": "舒适",
+            "5": "轻便"
+        },
+        "team": {
+            "heading": "所有这些都由我们的优秀研究人员提供",
+            "members": {
+                "member1": {
+                    "alt": "成员 1",
+                    "description": "David 是一个年轻且充满热情的家伙，他用 27 年的时间，坐在自行车上骑行。他曾参加过从重力竞赛到环法比赛，但在他往臀部注射了类固醇后，他只能做些坐在车座上的事情。"
+                },
+                "member2": {
+                    "alt": "成员 2",
+                    "description": "年轻且积极的运动员，拥有丰富的经验。她是 David Motorbike 的恶魔双胞胎。她是复活 Maurice 的人。她还是一位了不起的朋友，值得在这个傻乎乎的网页项目中永载史册。"
+                },
+                "member3": {
+                    "alt": "成员 3",
+                    "description": "在死了几年后，Maurice 决定自己从墓地中挖出来，向自行车界展示如何做—毕竟，死亡不过是一个借口，自行车是永恒的。",
+                    "name": "Maurice Garin 重生"
+                }
+            }
+        }
+    },
+    "features": {
+        "header": "我们的自行车特性",
+        "1": {
+            "feature": "碳纤维增强框架",
+            "description": "确保轻便的同时带来 NASA 级别的耐用性"
+        },
+        "2": {
+            "feature": "氮气充填的加压空气混合物",
+            "description": "帮助减缓当管子破裂时的空气泄漏"
+        },
+        "3": {
+            "feature": "WiFi/Bluetooth 连接的避震器",
+            "description": "利用 WiFi 或 Bluetooth 根据您的手机 GPS 调整避震器"
+        },
+        "4": {
+            "feature": "防汽车碾压系统",
+            "description": "扬声器播放玛雅死亡哨音，提醒即将到来的汽车减速"
+        },
+        "5": {
+            "feature": "锋利的辐条",
+            "description": "通过能够切割物体来确保使用者的安全，保护免受树枝或小动物的伤害"
+        },
+        "6": {
+            "feature": "臀部冷却系统",
+            "description": "座椅上特别设计的孔洞优化气流，起到冷却作用"
+        },
+        "7": {
+            "feature": "尖叫驱动刹车系统",
+            "description": "当检测到人类尖叫超过 100dB 时，刹车会激活，并在达到 130dB 时完全停止自行车"
+        },
+        "8": {
+            "feature": "手机充电发电机",
+            "description": "特殊系统将动能转化为电能，为您的手机充电"
+        }
+    },
+    "testimonials": {
+        "header": "我们的评价！",
+        "more": "阅读更多！"
+    },
+    "gallery": {
+        "header": "我们的画廊"
+    },
+    "form": {
+        "alert": "您的消息已发送！",
+        "header": "联系我们！",
+        "name": "名字",
+        "name.placeholder": "请输入名字...",
+        "surname": "姓",
+        "surname.placeholder": "请输入姓...",
+        "email.placeholder": "在这里输入您的电子邮件",
+        "number": "电话号码",
+        "number.placeholder": "电话号码示例：123-456-789",
+        "message": "留言",
+        "message.placeholder": "在这里输入您的留言",
+        "required": "(*) 为必填字段",
+        "submit": "提交"
+    },
+    "social": {
+        "header": "喜欢吗？与全世界分享！"
+    },
+    "footer": {
+        "contact": "联系我们",
+        "phone": "电话",
+        "aria": {
+            "facebook": "前往我们的 Facebook 页面！",
+            "instagram": "访问我们的 Instagram！",
+            "x": "在 X 上关注我们！",
+            "linktree": "通过 Linktree 了解更多！"
+        },
+        "policy": "隐私政策",
+        "terms": "服务条款"
+    },
+    "preferences": {
+        "img": "辅助功能设置",
+        "fonts": "选择首选字体",
+        "dark": "关灯吗？",
+        "high": "高对比度模式"
+    }
+}

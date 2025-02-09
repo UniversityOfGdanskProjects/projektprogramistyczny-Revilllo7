@@ -3,8 +3,10 @@ import { Formik, Form, Field, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
 import '../styles/form.css';
 import Fetch from '../customHooks/fetch';
+import { useTranslation } from 'react-i18next';
 
 const ContactForm = () => {
+    const { t } = useTranslation();
 
     const initialValues = {
         Name: '',
@@ -15,15 +17,15 @@ const ContactForm = () => {
     };
 
     const validationSchema = Yup.object({
-        Name: Yup.string().matches(/^[a-zA-ZĄąĆćĘęŁłŃńÓóŚśŹźŻż]+(-[a-zA-ZĄąĆćĘęŁłŃńÓóŚśŹźŻż]+)?$/, "Name is not valid - Shouldn't contain numbers!").required(),
-        Surname: Yup.string().matches(/^[a-zA-ZĄąĆćĘęŁłŃńÓóŚśŹźŻż]+(-[a-zA-ZĄąĆćĘęŁłŃńÓóŚśŹźŻż]+)?$/, "Surname is not valid - Shouldn't contain numbers!").required(),
+        Name: Yup.string().matches(/^[a-zA-ZĄąĆćĘęŁłŃńÓóŚśŹźŻż]+(-[a-zA-ZĄąĆćĘęŁłŃńÓóŚśŹźŻż]+)?$/, t("Name is not valid - Shouldn't contain numbers!")).required(),
+        Surname: Yup.string().matches(/^[a-zA-ZĄąĆćĘęŁłŃńÓóŚśŹźŻż]+(-[a-zA-ZĄąĆćĘęŁłŃńÓóŚśŹźŻż]+)?$/, t("Surname is not valid - Shouldn't contain numbers!")).required(),
         email: Yup.string().required().email(),
         message: Yup.string().required().max(250),
         phoneNumber: Yup.string().matches(/^[0-9-]+$/),
     });
 
     const onSubmit = (_, { resetForm }) => {
-        alert('Your message has been sent!'); // Change this in the future
+        alert(t('form.alert')); // Change this in the future
         resetForm();
     };
 
@@ -47,51 +49,51 @@ const ContactForm = () => {
         <Formik initialValues={initialValues} validationSchema={validationSchema} onSubmit={onSubmit}>
             {({ setFieldValue }) => (
                 <Form className="contact-form" id="contact-form">
-                    <h2>Contact us!</h2>
+                    <h2>{t('form.header')}</h2>
 
                     <div className="form-field">
-                        <label htmlFor="Name">Name</label>
+                        <label htmlFor="Name">{t('form.name')}</label>
                         <strong>*</strong>
-                        <Field type="text" id="Name" name="Name" placeholder="First name here..." />
+                        <Field type="text" id="Name" name="Name" placeholder={t('form.name.placeholder')} />
                         <ErrorMessage name="Name" component="p" className="error" />
                     </div>
 
                     <div className="form-field">
-                        <label htmlFor="Surname">Surname</label>
+                        <label htmlFor="Surname">{t('form.surname')}</label>
                         <strong>*</strong>
-                        <Field type="text" id="Surname" name="Surname" placeholder="Surname goes here..." />
+                        <Field type="text" id="Surname" name="Surname" placeholder={t('form.surname.placeholder')} />
                         <ErrorMessage name="Surname" component="p" className="error" />
                     </div>
 
                     <div className="form-field">
-                        <label htmlFor="email">E-mail</label>
+                        <label htmlFor="email">{'E-mail'}</label>
                         <strong>*</strong>
-                        <Field type="email" id="email" name="email" placeholder="Rock your email in this place..." />
+                        <Field type="email" id="email" name="email" placeholder={t('form.email.placeholder')} />
                         <ErrorMessage name="email" component="p" className="error" />
                     </div>
 
                     <div className="form-field">
-                        <label htmlFor="phoneNumber">Number</label>
+                        <label htmlFor="phoneNumber">{t('form.number')}</label>
                         <Field
                             type="text"
                             id="phoneNumber"
                             name="phoneNumber"
-                            placeholder="Number example: 123-456-789"
+                            placeholder={t('form.number.placeholder')}
                             onChange={(e) => handlePhoneNumberChange(e, setFieldValue)}
                         />
                         <ErrorMessage name="phoneNumber" component="p" className="error" />
                     </div>
 
                     <div className="form-field">
-                        <label htmlFor="message">Message</label>
+                        <label htmlFor="message">{t('form.message')}</label>
                         <strong>*</strong>
-                        <Field as="textarea" id="message" name="message" maxLength="1024" placeholder="Your message should be ridin' here..." />
+                        <Field as="textarea" id="message" name="message" maxLength="1024" placeholder={t('form.message.placeholder')} />
                         <ErrorMessage name="message" component="p" className="error" />
                     </div>
 
-                    <p className="required"><strong>(*) required fields</strong></p>
+                    <p className="required"><strong>{t('form.required')}</strong></p>
                     <button type="submit" className="submit-button">
-                        Submit
+                        {t('form.submit')}
                     </button>
                 </Form>
             )}

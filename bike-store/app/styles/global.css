@@ -1,6 +1,7 @@
 /* globals.css */
 :root {
   --primary-color: #ff6600; /* Orange */
+  --primary-color-transparent: #ff6600aa; /* Orange */
   --primary-color-darker: #cc5200; /* Darker Orange */
   --secondary-color: #0044cc; /* Blue */
   --secondary-color-lighter: #4da8da; /* Lighter Blue */
@@ -22,6 +23,8 @@
   --dark-white: #f5f5f5;
   --grey: #cccccc;
   --shadow: rgba(0, 0, 0, 0.1);
+  --dark-shadow: rgba(0, 0, 0, 0.6);
+  --gold-transparent: #ffd700aa;
   --border-radius: 10px;
   font-family: 'Arial', sans-serif;
   line-height: 1.6;
@@ -95,7 +98,8 @@ a:hover {
 
 /* ==================*/
 /* = HIGH  CONTRAST =*/
-/* ==================*/.high-contrast a {
+/* ==================*/
+.high-contrast a {
   color: white;
 }
 .high-contrast body{

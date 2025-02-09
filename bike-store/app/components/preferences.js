@@ -1,5 +1,6 @@
 'use client';
 import { useReducer, useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
 
 import '../styles/preferences.css';
 
@@ -33,7 +34,8 @@ const reducer = (state, action) => {
     }
 };
 
-const Preferences = () => {
+export default function Preferences() {
+    const { t } = useTranslation();
     const [state, dispatch] = useReducer(reducer, initialState);
 
     useEffect(() => {
@@ -104,7 +106,7 @@ const Preferences = () => {
 
             <div className="preference">
                 <button className="button" onClick={() => dispatch({ type: 'TOGGLE_OTHER_MODAL' })}>
-                    <img src="images/access.png" alt="Accessibility options" />
+                    <img src="images/access.png" alt={t('preferences.img')} />
                 </button>
             </div>
 
@@ -112,24 +114,20 @@ const Preferences = () => {
                 <div className="modal-overlay" onClick={() => dispatch({ type: 'TOGGLE_OTHER_MODAL' })}>
                     <div className="other-modal" onClick={(e) => e.stopPropagation()}>
                         <div className="font-options">
-                            <h2>Other fonts</h2>
+                            <h2>{t('preferences.fonts')}</h2>
                             {['Arial', 'Comic Sans MS', 'Times New Roman'].map((font) => (
                                 <div
                                     key={font}
                                     className={`font-option ${state.font === font ? 'selected' : ''}`}
                                     onClick={() => changeFont(font)}
                                 >
-                                    {font === 'Arial'
-                                        ? "Arial"
-                                        : font === "Comic Sans MS"
-                                        ? "Comic Sans MS"
-                                        : "Times New Roman"}
+                                    {font}
                                 </div>
                             ))}
                         </div>
 
                         <div className="preferences-options">
-                            <h3>Turn off the lights?</h3>
+                            <h3>{t('preferences.dark')}</h3>
                             <label className="switch">
                                 <input type="checkbox" checked={state.darkMode || false} onChange={toggleDarkMode} disabled={state.highContrast} />
                                 <span className="slider round"></span>
@@ -137,7 +135,7 @@ const Preferences = () => {
                         </div>
 
                         <div className="preferences-options">
-                            <h3>High Contrast Mode</h3>
+                            <h3>{t('preferences.high')}</h3>
                             <label className="switch">
                                 <input type="checkbox" checked={state.highContrast || false} onChange={toggleHighContrast} />
                                 <span className="slider round"></span>
@@ -148,6 +146,4 @@ const Preferences = () => {
             )}
         </section>
     );
-};
-
-export default Preferences;
+}
