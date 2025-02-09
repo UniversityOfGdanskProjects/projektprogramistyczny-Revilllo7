@@ -2,7 +2,6 @@
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
 import '../styles/form.css';
-import Fetch from '../customHooks/fetch';
 import { useTranslation } from 'react-i18next';
 
 const ContactForm = () => {
