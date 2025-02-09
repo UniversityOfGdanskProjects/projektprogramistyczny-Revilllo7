@@ -26,12 +26,12 @@ const About = () => {
         <div className="team-members">
           <div className="team-member">
             <img src="/images/member1.jpg" alt={t('about.team.members.member1.alt')} />
-            <h4>{t('David Motorbike')}</h4>
+            <h4>{t('about.team.members.member1.name')}</h4>
             <p>{t('about.team.members.member1.description')}</p>
           </div>
           <div className="team-member">
             <img src="/images/member2.jpg" alt={t('about.team.members.member2.alt')} />
-            <h4>{t('Jadwiga Kucharska')}</h4>
+            <h4>{t('about.team.members.member2.name')}</h4>
             <p>{t('about.team.members.member2.description')}</p>
           </div>
           <div className="team-member">

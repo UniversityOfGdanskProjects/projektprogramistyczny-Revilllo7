@@ -32,11 +32,13 @@
             "members": {
                 "member1": {
                     "alt": "Member 1",
-                    "description": "David is a young and passionate fella, who spent 27 years of his entire life, sitting and riding bikes. He's done gravity racing all the way to Tour de France, however after injecting steroids in his buttocks, he can no longer do anything besides sitting on the bike saddle."
+                    "description": "David is a young and passionate fella, who spent 27 years of his entire life, sitting and riding bikes. He's done gravity racing all the way to Tour de France, however after injecting steroids in his buttocks, he can no longer do anything besides sitting on the bike saddle.",
+                    "name": "David Motorbike"
                 },
                 "member2": {
                     "alt": "Member 2",
-                    "description": "Young and motivated sportswoman with tons of experience. Evil twin of David Motorbike. She's the one who ressurected Maurice. She is also a wonderful friend and deserves to get immortalised on a silly website project"
+                    "description": "Young and motivated sportswoman with tons of experience. Evil twin of David Motorbike. She's the one who ressurected Maurice. She is also a wonderful friend and deserves to get immortalised on a silly website project",
+                    "name": "Jadwiga Kucharska"
                 },
                 "member3": {
                     "alt": "Member 3",
@@ -123,5 +125,19 @@
         "fonts": "Choose preferred font",
         "dark": "Turn off the lights?",
         "high": "High contrast mode"
+    },
+    "terms" : {
+        "header": "Terms of Service",
+        "terms": "Welcome to our bike store! By using this website, you agree to our terms. We don't know what they are either.",
+        "purchases": "All purchases are subject to our policies and regulations.",
+        "questions": "For questions, contact us at ",
+        "back": "Back to Home"
+    },
+    "privacy" : {
+        "header": "Privacy Policy",
+        "policy": "This is the Privacy Policy for our bike store.",
+        "data": "We collect user data responsibly and do not share it with third parties. (jk)",
+        "details": "For more details, contact us at ",
+        "back": "Back to Home"
     }
 }

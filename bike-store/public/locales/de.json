@@ -123,5 +123,20 @@
         "fonts": "Bevorzugte Schriftart wählen",
         "dark": "Licht ausschalten?",
         "high": "Modus mit hohem Kontrast"
+    },
+    "terms": {
+    "header": "Nutzungsbedingungen",
+    "terms": "Willkommen in unserem Fahrradladen! Durch die Nutzung dieser Website stimmst du unseren Bedingungen zu. Wir wissen auch nicht, was sie sind.",
+    "purchases": "Alle Einkäufe unterliegen unseren Richtlinien und Vorschriften.",
+    "questions": "Bei Fragen kontaktiere uns unter ",
+    "back": "Zurück zur Startseite"
+    },
+    "privacy": {
+        "header": "Datenschutzrichtlinie",
+        "policy": "Dies ist die Datenschutzrichtlinie für unseren Fahrradladen.",
+        "data": "Wir sammeln Nutzerdaten verantwortungsbewusst und geben sie nicht an Dritte weiter. (nur ein Scherz)",
+        "details": "Für weitere Details kontaktiere uns unter ",
+        "back": "Zurück zur Startseite"
     }
+
 }

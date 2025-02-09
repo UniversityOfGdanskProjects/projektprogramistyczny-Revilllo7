@@ -6,6 +6,7 @@ import Header from '../components/header'
 import ContactForm from '../components/form'
 import { I18nextProvider } from "react-i18next";
 import i18n from "../../i18n.js";
+import { t } from 'i18next';
 
 export default function PrivacyPolicy() {
     return (
@@ -13,11 +14,11 @@ export default function PrivacyPolicy() {
             <Header />
             <div className='PrivacyPolicy'>
                 <div className="policy-container">
-                    <h1>Privacy Policy</h1>
-                    <p>This is the Privacy Policy for our bike store.</p>
-                    <p>We collect user data responsibly and do not share it with third parties.</p>
-                    <p>For more details, contact us at <a href="mailto:contact@bikestore.com">contact@bikestore.com</a>.</p>
-                    <Link href="/" className="back-link">Back to Home</Link>
+                    <h1>{t('privacy.header')}</h1>
+                    <p>{t('privacy.policy')}</p>
+                    <p>{t('privacy.data')}</p>
+                    <p>{t('privacy.details')} <a href="mailto:contact@bikestore.com">contact@bikestore.com</a>.</p>
+                    <Link href="/" className="back-link">{t('privacy.back')}</Link>
                 </div>
             </div>
             <ContactForm />

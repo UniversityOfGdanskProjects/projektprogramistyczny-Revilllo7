@@ -32,11 +32,13 @@
             "members": {
                 "member1": {
                     "alt": "Członek 1",
-                    "description": "David to młody i pełen pasji facet, który spędził 27 lat swojego życia, siedząc i jeżdżąc na rowerze. Ścigał się w zawodach grawitacyjnych aż po Tour de France, jednak po wstrzyknięciu sterydów w pośladki, nie może już robić nic poza siedzeniem na siodełku."
+                    "description": "David to młody i pełen pasji facet, który spędził 27 lat swojego życia, siedząc i jeżdżąc na rowerze. Ścigał się w zawodach grawitacyjnych aż po Tour de France, jednak po wstrzyknięciu sterydów w pośladki, nie może już robić nic poza siedzeniem na siodełku.",
+                    "name": "Dawid Motocykl"
                 },
                 "member2": {
                     "alt": "Członek 2",
-                    "description": "Młoda i zmotywowana sportsmenka z ogromnym doświadczeniem. Zła bliźniaczka Davida Motorbike’a. To ona wskrzesiła Maurice’a. Jest także cudowną przyjaciółką i zasługuje na uwiecznienie na tym zabawnym projekcie strony."
+                    "description": "Młoda i zmotywowana sportsmenka z ogromnym doświadczeniem. Zła bliźniaczka Davida Motorbike’a. To ona wskrzesiła Maurice’a. Jest także cudowną przyjaciółką i zasługuje na uwiecznienie na tym zabawnym projekcie strony.",
+                    "name": "Jadwiga Kucharska"
                 },
                 "member3": {
                     "alt": "Członek 3",
@@ -123,5 +125,19 @@
         "fonts": "Wybierz preferowaną czcionkę",
         "dark": "Wyłączyć światła?",
         "high": "Tryb wysokiego kontrastu"
+    },
+    "terms": {
+    "header": "Warunki korzystania z usługi",
+    "terms": "Witamy w naszym sklepie rowerowym! Korzystając z tej strony, zgadzasz się na nasze warunki. My też ich nie znamy.",
+    "purchases": "Wszystkie zakupy podlegają naszym zasadom i regulaminom.",
+    "questions": "W razie pytań skontaktuj się z nami pod adresem ",
+    "back": "Powrót do strony głównej"
+    },
+    "privacy": {
+        "header": "Polityka prywatności",
+        "policy": "To jest polityka prywatności naszego sklepu rowerowego.",
+        "data": "Zbieramy dane użytkowników odpowiedzialnie i nie udostępniamy ich osobom trzecim. (żartujemy)",
+        "details": "Aby uzyskać więcej informacji, skontaktuj się z nami pod adresem ",
+        "back": "Powrót do strony głównej"
     }
 }

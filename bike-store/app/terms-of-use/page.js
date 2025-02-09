@@ -6,6 +6,7 @@ import Header from '../components/header'
 import ContactForm from '../components/form'
 import { I18nextProvider } from "react-i18next";
 import i18n from "../../i18n.js";
+import { t } from 'i18next';
 
 export default function TermsOfUse() {
     return (
@@ -13,11 +14,11 @@ export default function TermsOfUse() {
             <Header />
             <div className='TermsOfUse'>
                 <div className="policy-container">
-                    <h1>Terms of Use</h1>
-                    <p>Welcome to our bike store! By using this website, you agree to our terms.</p>
-                    <p>All purchases are subject to our policies and regulations.</p>
-                    <p>For questions, contact <a href="mailto:contact@bikestore.com">contact@bikestore.com</a>.</p>
-                    <Link href="/">Back to Home</Link>
+                    <h1>{t('terms.header')}</h1>
+                    <p>{t('terms.terms')}</p>
+                    <p>{t('terms.purchases')}</p>
+                    <p>{t('terms.questions')}<a href="mailto:contact@bikestore.com">contact@bikestore.com</a>.</p>
+                    <Link href="/">{t('terms.back')}</Link>
                 </div>
             </div>
             <ContactForm />

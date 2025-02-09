@@ -32,11 +32,13 @@
             "members": {
                 "member1": {
                     "alt": "Miembro 1",
-                    "description": "David es un joven y apasionado ciclista, que pasó 27 años de su vida montando y conduciendo bicicletas. Ha participado en carreras de descenso hasta llegar al Tour de Francia, pero después de inyectarse esteroides en sus glúteos, ya no puede hacer nada más que sentarse sobre el sillín de la bicicleta."
+                    "description": "David es un joven y apasionado ciclista, que pasó 27 años de su vida montando y conduciendo bicicletas. Ha participado en carreras de descenso hasta llegar al Tour de Francia, pero después de inyectarse esteroides en sus glúteos, ya no puede hacer nada más que sentarse sobre el sillín de la bicicleta.",
+                    "name": "David Motocicleta"
                 },
                 "member2": {
                     "alt": "Miembro 2",
-                    "description": "Joven y motivada deportista con mucha experiencia. La gemela malvada de David Motorbike. Ella fue la que resucitó a Maurice. También es una amiga maravillosa y merece ser inmortalizada en un proyecto web tonto"
+                    "description": "Joven y motivada deportista con mucha experiencia. La gemela malvada de David Motorbike. Ella fue la que resucitó a Maurice. También es una amiga maravillosa y merece ser inmortalizada en un proyecto web tonto",
+                    "name": "Jadwiga Kucharska"
                 },
                 "member3": {
                     "alt": "Miembro 3",
@@ -123,5 +125,20 @@
         "fonts": "Elige tu fuente preferida",
         "dark": "¿Apagar las luces?",
         "high": "Modo de alto contraste"
+    },
+    "terms": {
+    "header": "Términos de servicio",
+    "terms": "¡Bienvenido a nuestra tienda de bicicletas! Al usar este sitio web, aceptas nuestros términos. Nosotros tampoco sabemos cuáles son.",
+    "purchases": "Todas las compras están sujetas a nuestras políticas y regulaciones.",
+    "questions": "Para preguntas, contáctanos en ",
+    "back": "Volver a inicio"
+    },
+    "privacy": {
+    "header": "Política de privacidad",
+    "policy": "Esta es la política de privacidad de nuestra tienda de bicicletas.",
+    "data": "Recopilamos datos de usuarios de manera responsable y no los compartimos con terceros. (es broma)",
+    "details": "Para más detalles, contáctanos en ",
+    "back": "Volver a inicio"
     }
+
 }

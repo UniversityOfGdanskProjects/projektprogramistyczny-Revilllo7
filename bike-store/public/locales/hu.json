@@ -1,0 +1,144 @@
+{
+    "header": {
+        "motto": "Lovagold meg a jövőt – A tökéletes biciklid vár rád!",
+        "about": "Rólunk",
+        "features": "Biciklijeink",
+        "testimonials": "Vásárlói vélemények",
+        "contact": "Kapcsolat"
+    },
+    "hero": {
+        "email": {
+            "wrong": "Valami hiba történt!",
+            "error": "Hiba történt a mentés során, próbáld újra!",
+            "enter": "Add meg az e-mail címed"
+        },
+        "header": "Szerezd meg most!",
+        "newsletter": "Iratkozz fel hírlevelünkre, hogy értesülj legújabb biciklijeink elérhetőségéről",
+        "button": "Feliratkozás"
+    },
+    "about": {
+        "heading": "Rólunk!",
+        "mission": "Küldetésünk, hogy csúcsminőségű, életet megváltoztató kerékpározási élményt nyújtsunk, egyetlen nyeregben ülve.",
+        "values": {
+            "heading": "Biciklijeink legfőbb jellemzői!",
+            "1": "Környezetbarát",
+            "2": "Tartós",
+            "3": "Életet megváltoztató",
+            "4": "Kényelmes",
+            "5": "Könnyű súlyú"
+        },
+        "team": {
+            "heading": "Mindezt csodálatos kutatóinknak köszönhetjük",
+            "members": {
+                "member1": {
+                    "alt": "1. tag",
+                    "description": "Dávid egy fiatal és lelkes fickó, aki 27 évet töltött az életéből biciklizéssel. A gravitációs versenyektől egészen a Tour de France-ig mindent kipróbált, ám miután szteroidokat fecskendezett a fenekébe, már csak ülni tud a nyeregben.",
+                    "name": "Dávid Motorkerékpár"
+                },
+                "member2": {
+                    "alt": "2. tag",
+                    "description": "Egy fiatal és motivált sportoló, rengeteg tapasztalattal. Dávid Motorbike gonosz ikertestvére. Ő támasztotta fel Maurice-t. Emellett fantasztikus barát, és megérdemli, hogy egy vicces weboldal projektben megörökítsük.",
+                    "name": "Jadwiga Kucharska"
+                },
+                "member3": {
+                    "alt": "3. tag",
+                    "description": "Évekig halott volt, de Maurice úgy döntött, hogy kiássa magát, hogy megmutassa a világnak, hogyan kell igazán biciklizni – hiszen a halál csak egy kifogás, a kerékpározás pedig örök.",
+                    "name": "Maurice Garin Újjászületve"
+                }
+            }
+        }
+    },
+    "features": {
+        "header": "Biciklijeink fő jellemzői",
+        "1": {
+            "feature": "Szénszálas megerősített váz",
+            "description": "Könnyű, mégis NASA-szintű tartósságot biztosít"
+        },
+        "2": {
+            "feature": "Nitrogénnel töltött, nyomás alatti levegőkeverék",
+            "description": "Lassítja a levegő szivárgását, ha a belső cső megsérül"
+        },
+        "3": {
+            "feature": "WiFi/Bluetooth kapcsolatos lengéscsillapítók",
+            "description": "A telefonod GPS-je alapján állítja be a lengéscsillapítókat WiFi vagy Bluetooth segítségével"
+        },
+        "4": {
+            "feature": "Autóátgázolás-elleni rendszer",
+            "description": "Maja halálsípot utánzó hangokat játszik le a hangszórókon keresztül, hogy a közeledő autók lassítsanak"
+        },
+        "5": {
+            "feature": "Éles küllők",
+            "description": "Megvédi a felhasználót azzal, hogy képes elvágni kisebb tárgyakat, így elhárítva az akadályokat"
+        },
+        "6": {
+            "feature": "Fenék-hűtőrendszer",
+            "description": "Speciálisan kialakított lyukak a nyeregben a levegő áramlásának optimalizálására és a hűtés érdekében"
+        },
+        "7": {
+            "feature": "Sikításvezérelt fékrendszer",
+            "description": "Ha 100 dB feletti emberi sikítást érzékel, a fékek aktiválódnak, és 130 dB-nél teljesen megállítják a biciklit"
+        },
+        "8": {
+            "feature": "Telefontöltő dinamó",
+            "description": "Különleges rendszer, amely a mozgási energiát elektromos árammá alakítja, így töltve a telefonodat"
+        }
+    },
+    "testimonials": {
+        "header": "Értékeléseink!",
+        "more": "Olvass tovább!"
+    },
+    "gallery": {
+        "header": "Galériánk"
+    },
+    "form": {
+        "alert": "Az üzeneted elküldve!",
+        "header": "Kapcsolatfelvétel!",
+        "name": "Név",
+        "name.placeholder": "Ide írd a keresztneved...",
+        "surname": "Vezetéknév",
+        "surname.placeholder": "Ide írd a vezetékneved...",
+        "email.placeholder": "Írd be az e-mail címed ide",
+        "number": "Telefonszám",
+        "number.placeholder": "Példa: 123-456-789",
+        "message": "Üzenet",
+        "message.placeholder": "Az üzenetednek itt kellene gurulnia",
+        "required": "(*) kötelező mezők",
+        "submit": "Küldés"
+    },
+    "social": {
+        "header": "Tetszett? Oszd meg velünk a világgal!"
+    },
+    "footer": {
+        "contact": "Lépj kapcsolatba velünk itt:",
+        "phone": "Telefon",
+        "aria": {
+            "facebook": "Látogasd meg a Facebook oldalunkat!",
+            "instagram": "Látogasd meg az Instagramunkat!",
+            "x": "Kövess minket X-en!",
+            "linktree": "További információk rólunk a Linktree-n!"
+        },
+        "policy": "Adatvédelmi irányelvek",
+        "terms": "Felhasználási feltételek"
+    },
+    "preferences": {
+        "img": "Akadálymentesítési beállítások",
+        "fonts": "Válaszd ki a kedvenc betűtípusod",
+        "dark": "Kapcsold le a lámpát?",
+        "high": "Magas kontraszt mód"
+    },
+    "terms": {
+    "header": "Szolgáltatási feltételek",
+    "terms": "Üdvözlünk a bicikliboltunkban! A weboldal használatával elfogadod a feltételeinket. Mi sem tudjuk, mik ezek.",
+    "purchases": "Minden vásárlás az irányelveink és szabályzataink hatálya alá tartozik.",
+    "questions": "Kérdések esetén lépj kapcsolatba velünk itt: ",
+    "back": "Vissza a főoldalra"
+    },
+    "privacy": {
+        "header": "Adatvédelmi irányelvek",
+        "policy": "Ez a bicikliboltunk adatvédelmi irányelve.",
+        "data": "Felelősségteljesen gyűjtjük a felhasználói adatokat, és nem osztjuk meg harmadik felekkel. (csak viccelünk)",
+        "details": "További részletekért lépj kapcsolatba velünk itt: ",
+        "back": "Vissza a főoldalra"
+    }
+
+}
